@@ -1,0 +1,70 @@
+{
+  "templates": [
+    {
+      "name": "'Corporate Multi-Page Template'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/contact-us",
+          "uuid": "1980707b256ea23a44bb6d7ff9aed70d65dbfab5"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans/calculators",
+          "uuid": "76afb1bdbb15cabf6e5b3d7ead320acec57b96b7"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
+          "uuid": "bc81c8b318ddfa8a3f985091ecf48ba42243e374"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
+          "uuid": "696fd41deeb914153b69db23ebe70970653b44f0"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
+          "uuid": "331fb09800cff78fef525b022a936269e0486717"
+        }
+      ]
+    },
+    {
+      "name": "\"Data Table Page\"",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/faqs",
+          "uuid": "bcb8db4f04849078333c039b229123dff4ee0412"
+        }
+      ]
+    },
+    {
+      "name": "'Search Results Page'",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/rates-fees",
+          "uuid": "1b27225a33359e1462174d3d1e723903f1dda38c"
+        }
+      ]
+    },
+    {
+      "name": "Product Detail Page",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://www.nrma.com.au/home-loans",
+          "uuid": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff"
+        }
+      ]
+    },
+    {
+      "name": "'Documentation Page'",
+      "cluster": 5,
+      "pages": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/complaints",
+          "uuid": "b7fdc77be2b826b7d51534d4f105875352f80b03"
+        }
+      ]
+    }
+  ]
+}
