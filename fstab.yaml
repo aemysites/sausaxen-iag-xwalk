@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p133648-e1748203.adobeaemcloud.com/bin/franklin.delivery/aemysites/sausaxen-iag-xwalk/main"
+    type: "markup"
+    suffix: ".html"
