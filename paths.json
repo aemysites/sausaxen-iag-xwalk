@@ -1,10 +1,11 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/sausaxen-iag-xwalk/:/",
+    "/content/sausaxen-iag-xwalk/configuration:/.helix/config.json",
+    "/content/sausaxen-iag-xwalk/metadata:/metadata.json",
+    "/content/sausaxen-iag-xwalk/tools/sidekick/library:/tools/sidekick/library.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/sausaxen-iag-xwalk/"
   ]
 }
