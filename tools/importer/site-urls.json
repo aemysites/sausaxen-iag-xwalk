@@ -1,0 +1,60 @@
+{
+  "originUrl": "https://www.nrma.com.au",
+  "lastCrawled": "https://www.nrma.com.au/home-loans",
+  "urls": [
+    {
+      "url": "https://www.nrma.com.au/home-loans",
+      "source": "CRAWL",
+      "targetPath": "/home-loans",
+      "id": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
+      "source": "CRAWL",
+      "targetPath": "/home-loans/borrowing-calculator",
+      "id": "696fd41deeb914153b69db23ebe70970653b44f0"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/calculators",
+      "source": "CRAWL",
+      "targetPath": "/home-loans/calculators",
+      "id": "76afb1bdbb15cabf6e5b3d7ead320acec57b96b7"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/complaints",
+      "source": "CRAWL",
+      "targetPath": "/home-loans/complaints",
+      "id": "b7fdc77be2b826b7d51534d4f105875352f80b03"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/contact-us",
+      "source": "CRAWL",
+      "targetPath": "/home-loans/contact-us",
+      "id": "1980707b256ea23a44bb6d7ff9aed70d65dbfab5"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/faqs",
+      "source": "CRAWL",
+      "targetPath": "/home-loans/faqs",
+      "id": "bcb8db4f04849078333c039b229123dff4ee0412"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/rates-fees",
+      "source": "CRAWL",
+      "targetPath": "/home-loans/rates-fees",
+      "id": "1b27225a33359e1462174d3d1e723903f1dda38c"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
+      "source": "CRAWL",
+      "targetPath": "/home-loans/refinance-calculator",
+      "id": "bc81c8b318ddfa8a3f985091ecf48ba42243e374"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
+      "source": "CRAWL",
+      "targetPath": "/home-loans/repayments-calculator",
+      "id": "331fb09800cff78fef525b022a936269e0486717"
+    }
+  ]
+}
