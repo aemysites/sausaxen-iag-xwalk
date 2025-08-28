@@ -44,8 +44,8 @@
 
 
 .cards {
-  background: #FBF7F5;
-  padding: 40px 0;
+  background: #D7E8E1;
+  padding: 48px 0;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -420,7 +420,6 @@
   }
 }
 
-/* Center wrapper */
 .cards > .cards-wrapper {
   width: 100%;
   max-width: 1200px;
@@ -429,7 +428,6 @@
   justify-content: center;
 }
 
-/* Grid for cards */
 .cards > .cards-wrapper > .block.cards {
   width: 100%;
   max-width: 1080px;
@@ -439,100 +437,103 @@
 
 .cards > .cards-wrapper > .block.cards > ul {
   display: grid;
-  grid-template-columns: repeat(3, minmax(250px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(3, minmax(334px, 1fr));
+  gap: 48px;
   margin: 0 auto;
   padding: 0;
   list-style: none;
   box-sizing: border-box;
   width: 100%;
   max-width: 1080px;
+  background: none;
 }
 
-/* Card: narrower, taller, soft border */
 .cards > .cards-wrapper > .block.cards > ul > li {
   background: #fff;
-  border: 1px solid #E9E9E9;
-  border-radius: 8px;
-  max-width: 312px;
-  min-width: 250px;
-  padding: 60px 26px 54px;
+  border: none;
+  border-radius: 14px;
+  max-width: 384px;
+  min-width: 334px;
+  padding: 40px 36px 36px;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   transition: box-shadow 0.2s;
-  box-shadow: none;
+  box-shadow: 0 4px 24px rgb(30 40 60 / 10%);
   margin: 0 auto;
 }
 
-/* Icon: navy block, vertical air above heading */
 .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:first-child {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  background: #00195C;
-  border-radius: 6px;
-  margin-bottom: 24px;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  background: #001A70;
+  border-radius: 12px;
+  margin-bottom: 22px;
   margin-top: 0;
   margin-right: 0;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 32px;
 }
 
-/* Card content: stacked vertically */
 .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) {
   flex: 1 1 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   min-width: 0;
   min-height: 0;
   padding: 0;
+  width: auto;
+  max-width: 96%;
 }
 
-/* Heading: bold, navy, spacing */
 .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) h3 {
-  color: #00195C;
-  font-size: 1.125rem; /* 18px */
+  color: #001A70;
+  font-size: 1.55rem;
   font-family: var(--heading-font-family);
   font-weight: 700;
-  margin: 0 0 14px;
-  line-height: 1.25;
+  margin: 0 0 16px;
+  line-height: 1.18;
   text-align: left;
   letter-spacing: 0;
+  width: 100%;
 }
 
-/* Description: softer color, more spacing below */
 .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) p:not(.button-container) {
-  color: #434A54;
-  font-size: 0.875rem; /* 14px */
+  color: #3D4357;
+  font-size: 1.15rem;
   font-family: var(--body-font-family);
   font-weight: 400;
-  margin: 0 0 34px;
-  line-height: 1.5;
+  margin: 0 0 30px;
+  line-height: 1.6;
   text-align: left;
+  width: 100%;
 }
 
-/* Button container: left-aligned, extra air above */
 .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container {
   width: 100%;
-  margin-top: 26px;
+  margin-top: auto;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-/* Button: pill shape, color, spacing */
 .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button {
   background-color: #00195C;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1rem;
+  color: #001A70;
+  font-weight: 700;
+  font-size: 1.17rem;
   font-family: var(--body-font-family);
-  border-radius: 24px;
-  padding: 13px 32px;
-  border: none;
+  border-radius: 30px;
+  padding: 15px 48px;
+  border: 2px solid #001A70;
   box-shadow: none;
   letter-spacing: 0;
   margin: 0;
@@ -540,17 +541,20 @@
   display: inline-block;
   width: auto;
   max-width: 100%;
-  line-height: 1.15;
-  transition: background 0.2s;
+  line-height: 1.3;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button:hover,
+.cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button:hover,
 .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button:focus {
   background-color: #00247B;
+  color: #fff;
+  border-color: #001A70;
 }
 
-/* Responsive adjustments */
 @media (width <= 900px) {
   .cards > .cards-wrapper > .block.cards > ul {
     grid-template-columns: 1fr;
@@ -562,5 +566,80 @@
     min-width: 0;
     max-width: 98vw;
     padding: 32px 8px 20px;
+  }
+}
+
+/* Cards grid: 3 columns, more gap for spacing */
+
+/* Individual card: vertical stack, center all content horizontally */
+
+/* Icon container: center horizontally above content */
+
+/* Main content vertical stack, center horizontally */
+
+/* Title: larger, bolder, vertical spacing, left aligned but centered as a block */
+
+/* Description: slightly bigger, more space below, left aligned but centered as a block */
+
+/* Button container: center button horizontally, keep at bottom */
+
+/* Outlined button style */
+
+/* Responsive: stack vertically, reduce gap */
+@media (width <= 1000px) {
+  .cards > .cards-wrapper > .block.cards > ul {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    max-width: 98vw;
+  }
+
+  .cards > .cards-wrapper > .block.cards > ul > li {
+    min-width: 0;
+    max-width: 98vw;
+    padding: 32px 12px 20px;
+  }
+}
+
+@media (width <= 600px) {
+  .cards {
+    padding: 14px 0;
+  }
+
+  .cards > .cards-wrapper {
+    padding: 0 2px;
+  }
+
+  .cards > .cards-wrapper > .block.cards > ul {
+    gap: 16px;
+  }
+
+  .cards > .cards-wrapper > .block.cards > ul > li {
+    padding: 12px 2px 10px;
+    min-width: 0;
+    max-width: 99vw;
+  }
+
+  .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:first-child {
+    width: 38px;
+    min-width: 38px;
+    height: 38px;
+    background-size: 24px 24px;
+    margin-bottom: 14px;
+    border-radius: 7px;
+  }
+
+  .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) h3 {
+    font-size: 1.13rem;
+    margin-bottom: 9px;
+  }
+
+  .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) p:not(.button-container) {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .cards > .cards-wrapper > .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button {
+    padding: 11px 18px;
+    font-size: 1rem;
   }
 }
