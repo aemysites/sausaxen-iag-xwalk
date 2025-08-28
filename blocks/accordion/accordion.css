@@ -57,7 +57,15 @@
 }
 
 .accordion details .accordion-item-body {
-  padding: 0 16px;
+  padding: 22px 24px;
+  font-size: 16px;
+  color: #002262;
+  background: #fff;
+  line-height: 1.5;
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  width: 100%;
 }
 
 .accordion details[open] .accordion-item-body {
@@ -124,8 +132,6 @@
   margin-left: 0;
   padding-left: 16px;
   padding-right: 4px;
-
-  /* Removed the duplicate shorthand 'margin' */
 }
 
 .accordion .accordion-item-label::-webkit-details-marker,
@@ -149,8 +155,6 @@
   line-height: 1.4;
   background: none;
   padding: 0;
-
-  /* Reordered flex-grow, flex-shrink, and removed shorthand 'flex' */
 }
 
 .accordion .accordion-item-label::after {
@@ -554,9 +558,9 @@ details[open] > .accordion-item-label::after {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 24px;
+  padding: 0 24px;
   width: 100%;
-  min-height: 0;
+  min-height: 54px;
   font-family: Inter, 'Help Type Text Web', Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -566,7 +570,7 @@ details[open] > .accordion-item-label::after {
   cursor: pointer;
   gap: 0;
   box-sizing: border-box;
-  background: #F7F7FB;
+  background: #fff;
 }
 
 .accordion details > summary.accordion-item-label::-webkit-details-marker,
@@ -628,17 +632,17 @@ details[open] > .accordion-item-label::after {
 
 .accordion details.accordion-item {
   width: 100%;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E5E5E5;
   background: #fff;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .accordion details.accordion-item:last-child {
   border-bottom: none;
 }
 
-/* Remove default marker/arrow for all browsers */
 .accordion .accordion-item-label::-webkit-details-marker,
 .accordion .accordion-item-label::marker,
 .accordion details summary::-webkit-details-marker,
@@ -646,18 +650,12 @@ details[open] > .accordion-item-label::after {
   display: none;
 }
 
-/* Custom chevron arrow: longer, thinner, flush right */
-
-/* Arrow rotates when open */
-
-/* Remove highlight on hover/focus/active */
 .accordion .accordion-item-label:hover,
 .accordion .accordion-item-label:focus,
 .accordion details[open] > .accordion-item-label {
   background: #fff;
 }
 
-/* Remove any border-radius or shadow from any part of the block */
 .accordion,
 .accordion .accordion.block,
 .accordion details.accordion-item,
@@ -667,12 +665,10 @@ details[open] > .accordion-item-label::after {
   box-shadow: none;
 }
 
-/* No extra spacing between rows */
 .accordion details.accordion-item + details.accordion-item {
   margin-top: 0;
 }
 
-/* Responsive: reduce padding for mobile */
 @media (width <= 600px) {
   .accordion .accordion-item-label,
   .accordion .accordion-item-body {
@@ -691,5 +687,75 @@ details[open] > .accordion-item-label::after {
     margin-left: 8px;
     border-right-width: 1.5px;
     border-bottom-width: 1.5px;
+  }
+}
+
+.accordion details > summary.accordion-item-label > p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #002262;
+  flex: 1 1 0;
+  text-align: left;
+  letter-spacing: normal;
+  line-height: 54px; /* Enforce vertical centering */
+  display: block;    /* Ensures line-height applies cleanly */
+  min-height: 0;
+}
+
+/* Chevron: perfectly centered and sized */
+.accordion details > summary.accordion-item-label::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 16px;
+  margin-right: 0;
+  border: solid #002262;
+  border-width: 0 2.5px 2.5px 0;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+  background: none;
+  border-radius: 0;
+  position: relative;
+  top: -1px; /* Fine-tune vertical alignment */
+}
+
+/* Chevron open (upwards) */
+.accordion details[open] > summary.accordion-item-label::after {
+  transform: rotate(-135deg);
+}
+
+/* Hide native marker */
+.accordion details > summary::-webkit-details-marker,
+.accordion details > summary::marker {
+  display: none;
+}
+
+/* Each accordion item/row */
+
+/* Accordion content */
+
+/* Responsive: slightly reduce padding on small screens */
+@media (width <= 700px) {
+  .accordion details > summary.accordion-item-label,
+  .accordion details .accordion-item-body {
+    padding: 13px 10px;
+  }
+
+  .accordion details > summary.accordion-item-label::after {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    border-width: 0 2px 2px 0;
+  }
+
+  .accordion details > summary.accordion-item-label > p,
+  .accordion details .accordion-item-body {
+    font-size: 15px;
+    line-height: 36px;
   }
 }
