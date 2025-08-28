@@ -7,15 +7,22 @@
 .hero {
   position: relative;
   padding: 0;
-  min-height: 140px;
+  min-height: 120px;
   display: flex;
   flex-direction: row;
   width: 100vw;
   box-sizing: border-box;
-  background: #040A6B;
+  background: #060d71;
   margin: 0;
   align-items: flex-start;
   overflow: visible;
+  background-image:
+    url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,40 40,0 40,40' fill='%23e5e78a'/%3E%3C/svg%3E"), /* bottom left */
+    url("data:image/svg+xml,%3Csvg width='120' height='120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='120,0 0,120 120,120' fill='%23e5e78a'/%3E%3C/svg%3E");
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: 6vw bottom, right top;
+  background-size: 40px 40px, 120px 120px;
 }
 
 .hero h1,
@@ -25,12 +32,13 @@
 .hero h5,
 .hero h6,
 .hero p {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
   color: var(--background-color);
-  margin: 0;
+  /* Removed shorthand margin to avoid overriding margin-left/margin-right */
   padding: 0;
+  text-align: left;
 }
 
 .hero.no-image * {
@@ -65,14 +73,17 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  padding-left: 12vw;
+  padding-left: 62px;
   padding-right: 4vw;
   min-width: 0;
-  min-height: 140px;
+  min-height: 120px;
   box-sizing: border-box;
   flex-direction: column;
   position: relative;
-  padding: 16px 0 0 32px;
+  /* Removed shorthand padding to avoid overriding padding-left/padding-right */
+  padding-top: 26px;
+  padding-bottom: 0;
+  width: 100%;
 }
 
 .hero > div:last-child > div {
@@ -171,14 +182,19 @@
 
 .hero > div:last-child h1 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.08rem;
   font-family: var(--heading-font-family);
-  font-weight: 400;
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 1.2rem;
-  line-height: 1.15;
+  line-height: 1.18;
   text-align: left;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 368px;
+  letter-spacing: 0.01em;
+  word-break: break-word;
 }
 
 @media (width <= 900px) {
@@ -208,13 +224,6 @@
   }
 }
 
-/* Hide the unused button/link column */
-
-/* Ensure heading container is flush left and high up */
-
-/* Remove extra padding/margin from nested divs */
-
-/* Heading style: left, white, bold, compact */
 .hero h1 {
   color: #fff;
   font-family: var(--heading-font-family);
@@ -226,7 +235,6 @@
   text-align: left;
 }
 
-/* Responsive tweaks for smaller screens */
 @media (width <= 600px) {
   .hero > div:last-child {
     padding: 12px 0 0 12px;
@@ -237,11 +245,6 @@
   }
 }
 
-/* --- Decorative Yellow Shapes --- */
-
-/* Shapes are drawn at the bottom of the block, positioned and sized as in the reference image */
-
-/* Left triangle */
 .hero::before {
   position: absolute;
   bottom: 0;
@@ -255,7 +258,6 @@
   display: block;
 }
 
-/* Center triangle */
 .hero::after {
   position: absolute;
   bottom: 0;
@@ -269,7 +271,6 @@
   display: block;
 }
 
-/* Right triangle (using last-child's pseudo) */
 .hero > div:last-child::before {
   position: absolute;
   bottom: 0;
@@ -283,4 +284,25 @@
   display: block;
 }
 
-/* Remove any default margin from headings and paragraphs in the hero */
+/* Prevent global styles from forcing unwanted centering/max-width */
+
+/* Responsive: stack vertically on small screens, shrink triangles and adjust text */
+@media (width <= 600px) {
+  .hero {
+    flex-direction: column;
+    min-height: 80px;
+    background-position: 4vw bottom, right top;
+    background-size: 28px 28px, 68px 68px;
+  }
+
+  .hero > div:last-child {
+    padding-top: 16px;
+    padding-left: 16px;
+    min-height: 80px;
+  }
+
+  .hero > div:last-child h1 {
+    font-size: 0.94rem;
+    max-width: 92vw;
+  }
+}
