@@ -54,8 +54,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Left side (text) */
 .hero > div:last-child {
   flex: 1 1 50%;
   order: 1;
@@ -99,8 +97,6 @@
   line-height: 1.5;
   text-align: left;
 }
-
-/* Right side (image) */
 .hero > div:first-child {
   flex: 1 1 50%;
   order: 2;
@@ -133,13 +129,9 @@
   bottom: 0;
   z-index: 0;
 }
-
-/* Remove any solid background color from right side */
 .hero > div:first-child {
   background: none;
 }
-
-/* Responsive stacking on small screens */
 @media (max-width: 900px) {
   .hero {
     flex-direction: column;
@@ -157,5 +149,124 @@
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
+  }
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 320px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Image panel: right side */
+.hero > div:first-child {
+  flex: 1 1 50%;
+  order: 2;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  min-width: 0;
+  min-height: 320px;
+  background: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero > div:first-child > div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+.hero > div:first-child picture,
+.hero > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Text panel: left side - vertically center the block */
+.hero > div:last-child {
+  flex: 1 1 50%;
+  order: 1;
+  background: #00135B;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* <-- vertical centering */
+  align-items: flex-start;      /* <-- left align inside column */
+  padding-left: 12vw;           /* generous left padding */
+  padding-right: 4vw;
+  min-width: 0;
+  min-height: 320px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Inner text block */
+.hero > div:last-child > div {
+  width: 100%;
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.hero > div:last-child h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  line-height: 1.15;
+  text-align: left;
+  width: 100%;
+}
+
+.hero > div:last-child p {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+  width: 100%;
+  max-width: none;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero > div,
+  .hero > div:last-child,
+  .hero > div:first-child {
+    width: 100%;
+    min-height: 200px;
+    padding: 0;
+    order: unset;
+  }
+  .hero > div:last-child {
+    padding-left: 32px;
+    padding-right: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .hero > div:last-child > div {
+    padding: 0;
   }
 }
