@@ -77,10 +77,10 @@
 .accordion {
   width: 100%;
   margin: 0;
-  background: #fff;
+  background: #F9F7F5;
   box-sizing: border-box;
-  padding: 0;
-  display: block;
+  padding: 44px 0 40px;
+  display: flex;
   font-family: Inter, Arial, sans-serif;
   margin-left: 225px;
   margin-top: 34px;
@@ -90,8 +90,9 @@
   border: none;
   border-radius: 4px;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 220px;
 }
 
 .accordion .accordion-item {
@@ -699,12 +700,11 @@ details[open] > .accordion-item-label::after {
   flex: 1 1 0;
   text-align: left;
   letter-spacing: normal;
-  line-height: 54px; /* Enforce vertical centering */
-  display: block;    /* Ensures line-height applies cleanly */
+  line-height: 54px;
+  display: block;
   min-height: 0;
 }
 
-/* Chevron: perfectly centered and sized */
 .accordion details > summary.accordion-item-label::after {
   display: flex;
   align-items: center;
@@ -721,25 +721,18 @@ details[open] > .accordion-item-label::after {
   background: none;
   border-radius: 0;
   position: relative;
-  top: -1px; /* Fine-tune vertical alignment */
+  top: -1px;
 }
 
-/* Chevron open (upwards) */
 .accordion details[open] > summary.accordion-item-label::after {
   transform: rotate(-135deg);
 }
 
-/* Hide native marker */
 .accordion details > summary::-webkit-details-marker,
 .accordion details > summary::marker {
   display: none;
 }
 
-/* Each accordion item/row */
-
-/* Accordion content */
-
-/* Responsive: slightly reduce padding on small screens */
 @media (width <= 700px) {
   .accordion details > summary.accordion-item-label,
   .accordion details .accordion-item-body {
@@ -758,4 +751,120 @@ details[open] > .accordion-item-label::after {
     font-size: 15px;
     line-height: 36px;
   }
+}
+
+/* Accordion block container: visible white box, centered, max width, border */
+.accordion > .block {
+  background: #fff;
+  border: 1px solid #D4D4D4;
+  border-radius: 2px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-shadow: none;
+}
+
+/* Accordion items: dividers between rows except last */
+.accordion > .block > .accordion-item {
+  background: #fff;
+  border-bottom: 1px solid #D4D4D4;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.accordion > .block > .accordion-item:last-child {
+  border-bottom: none;
+}
+
+/* Accordion summary/label row styling */
+.accordion > .block > .accordion-item > .accordion-item-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  padding: 16px 24px;
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  color: #18206D;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: background 0.15s;
+}
+
+/* Accordion label text */
+.accordion > .block > .accordion-item > .accordion-item-label > p {
+  color: #18206D;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  flex: 1 1 auto;
+  text-align: left;
+  background: none;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+/* Chevron or arrow SVG styling (markup chevron or SVG) */
+.accordion > .block > .accordion-item > .accordion-item-label svg,
+.accordion > .block > .accordion-item > .accordion-item-label .chevron {
+  width: 18px;
+  height: 18px;
+  color: #18206D;
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+/* Accordion expanded body styling */
+.accordion > .block > .accordion-item > .accordion-item-body {
+  padding: 0 24px 12px;
+  font-size: 14px;
+  color: #18206D;
+  background: #fff;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  border: none;
+}
+
+/* Responsive: stack accordion on mobile and reduce paddings/margin */
+@media (width <= 700px) {
+  .accordion {
+    padding: 18px 0;
+  }
+
+  .accordion > .block {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+
+  .accordion > .block > .accordion-item > .accordion-item-label,
+  .accordion > .block > .accordion-item > .accordion-item-body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Hide default summary marker for clean row look */
+.accordion > .block > .accordion-item > .accordion-item-label::-webkit-details-marker,
+.accordion > .block > .accordion-item > .accordion-item-label::marker {
+  display: none;
 }
