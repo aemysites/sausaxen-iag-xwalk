@@ -1,10 +1,15 @@
+/* stylelint-disable no-descending-specificity */
 .accordion details {
-  border: 1px solid #dadada;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 .accordion details + details {
-  margin-top: 24px;
+  margin-top: 0;
 }
 
 .accordion details p {
@@ -58,4 +63,130 @@
 .accordion details[open] .accordion-item-body {
   border-top: 1px solid #dadada;
   background-color: var(--background-color);
+}
+
+
+.accordion {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #E5E5E5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.accordion .accordion-item:last-child {
+  border-bottom: none;
+}
+
+/* Header row: use flexbox for perfect vertical centering and compact row */
+.accordion .accordion-item-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* vertical centering */
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+  min-height: 48px;
+  background: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Remove default marker from summary */
+.accordion .accordion-item-label::-webkit-details-marker,
+.accordion .accordion-item-label::marker {
+  display: none;
+}
+
+/* Question text: vertically center, remove extra margins */
+.accordion .accordion-item-label > p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #061A5E;
+  flex: 1 1 auto;
+  line-height: 1.4;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+}
+
+/* Chevron: flex container for vertical centering, smaller size */
+.accordion .accordion-item-label::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  margin-left: 24px;
+  border: solid #061A5E;
+  border-width: 0 2px 2px 0;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+  transition: transform 0.3s;
+  background: none;
+  mask: none;
+  mask: none;
+}
+
+/* Rotate chevron when open */
+.accordion details[open] > .accordion-item-label::after {
+  transform: rotate(-135deg);
+}
+
+/* Remove unwanted default borders and spacing around details */
+
+/* Remove vertical gaps between accordion items */
+
+/* Accordion item body: compact and consistent with header */
+.accordion .accordion-item-body {
+  padding: 0 40px 16px;
+  font-size: 14px;
+  color: #061A5E;
+  background: #fff;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+.accordion .accordion-item-body p,
+.accordion .accordion-item-body ol,
+.accordion .accordion-item-body ul {
+  margin: 0 0 8px;
+  color: #061A5E;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.accordion .accordion-item-body a {
+  color: #061A5E;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+/* Responsive horizontal/vertical padding for mobile */
+@media (width <= 600px) {
+  .accordion .accordion-item-label,
+  .accordion .accordion-item-body {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .accordion .accordion-item-label::after {
+    margin-left: 12px;
+    width: 16px;
+    height: 16px;
+    border-width: 0 2px 2px 0;
+  }
 }
