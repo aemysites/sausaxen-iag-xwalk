@@ -44,7 +44,7 @@
 
 
 .cards {
-  background: #D7E8E1;
+  background: #e5f0ea;
   padding: 48px 0;
   width: 100%;
   box-sizing: border-box;
@@ -254,6 +254,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 .cards .cards.block {
@@ -569,23 +570,6 @@
   }
 }
 
-/* Cards grid: 3 columns, more gap for spacing */
-
-/* Individual card: vertical stack, center all content horizontally */
-
-/* Icon container: center horizontally above content */
-
-/* Main content vertical stack, center horizontally */
-
-/* Title: larger, bolder, vertical spacing, left aligned but centered as a block */
-
-/* Description: slightly bigger, more space below, left aligned but centered as a block */
-
-/* Button container: center button horizontally, keep at bottom */
-
-/* Outlined button style */
-
-/* Responsive: stack vertically, reduce gap */
 @media (width <= 1000px) {
   .cards > .cards-wrapper > .block.cards > ul {
     grid-template-columns: 1fr;
@@ -642,4 +626,202 @@
     padding: 11px 18px;
     font-size: 1rem;
   }
+}
+
+.cards .block.cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cards .block.cards > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  box-sizing: border-box;
+  align-items: stretch;
+  background: none;
+}
+
+/* Card style and spacing */
+.cards .block.cards > ul > li {
+  background: #fff;
+  border: none;
+  border-radius: 12px;
+  max-width: 340px;
+  min-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 28px 36px;
+  box-shadow: 0 2px 8px rgb(0 32 91 / 7%);
+  position: relative;
+  transition: box-shadow 0.2s;
+}
+
+/* Icon placeholder: display a calculator shape using an inline SVG as background-image */
+.cards .block.cards > ul > li > .cards-card-body:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  width: 100%;
+  margin-bottom: 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 32px 32px;
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='32' height='32' rx='6' fill='%2300205b'/%3E%3Crect x='8' y='10' width='16' height='12' rx='2' fill='white'/%3E%3Crect x='10' y='13' width='3' height='3' rx='1.5' fill='%2300205b'/%3E%3Crect x='15' y='13' width='3' height='3' rx='1.5' fill='%2300205b'/%3E%3Crect x='20' y='13' width='3' height='3' rx='1.5' fill='%2300205b'/%3E%3Crect x='10' y='18' width='3' height='3' rx='1.5' fill='%2300205b'/%3E%3Crect x='15' y='18' width='3' height='3' rx='1.5' fill='%2300205b'/%3E%3Crect x='20' y='18' width='3' height='3' rx='1.5' fill='%2300205b'/%3E%3C/svg%3E");
+  border-radius: 0;
+  height: 48px;
+  max-width: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card content vertical stack & center */
+.cards .block.cards > ul > li > .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Title styling */
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) h3 {
+  color: #00205b;
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1.2;
+  width: 100%;
+}
+
+/* Description styling */
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) p:not(.button-container) {
+  color: #49516a;
+  font-size: 15px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  margin: 0 0 20px;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+}
+
+/* Button container and button styling */
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container {
+  width: 100%;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button {
+  background: #fff;
+  color: #00205b;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 24px;
+  padding: 10px 32px;
+  border: 2px solid #00205b;
+  box-shadow: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button:hover,
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button:focus {
+  background: #00205b;
+  color: #fff;
+  border-color: #00205b;
+}
+
+/* Responsive: stack cards vertically on smaller screens */
+@media (width <= 900px) {
+  .cards .block.cards > ul {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 100vw;
+  }
+
+  .cards .block.cards > ul > li {
+    max-width: 98vw;
+    min-width: 0;
+  }
+}
+
+/* Responsive - reduce padding, font-size for mobile */
+@media (width <= 600px) {
+  .cards {
+    padding: 24px 0;
+  }
+
+  .cards .cards-wrapper {
+    padding: 0 2px;
+  }
+
+  .cards .block.cards > ul {
+    gap: 14px;
+  }
+
+  .cards .block.cards > ul > li {
+    padding: 16px 8px 14px;
+  }
+
+  .cards .block.cards > ul > li > .cards-card-body:not(:first-child) h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .cards .block.cards > ul > li > .cards-card-body:not(:first-child) p:not(.button-container) {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .cards .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container .button {
+    padding: 8px 18px;
+    font-size: 15px;
+  }
+
+  .cards .block.cards > ul > li > .cards-card-body:first-child {
+    min-height: 36px;
+    margin-bottom: 10px;
+    height: 32px;
+    max-width: 32px;
+    background-size: 24px 24px;
+  }
+}
+
+/* Ensure all text is centered, regardless of previous styles */
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) h3,
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) p,
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) .button-container {
+  text-align: center;
+  width: 100%;
+}
+
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) h3,
+.cards .block.cards > ul > li > .cards-card-body:not(:first-child) p {
+  margin-left: 0;
+  margin-right: 0;
 }
