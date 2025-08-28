@@ -130,21 +130,6 @@
   ],
   "blocks": [
     {
-      "name": "Columns",
-      "cluster": 1,
-      "source": "Columns",
-      "target": "Columns (columns1)",
-      "key": "columns1",
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
-          "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-          "uuid": "bc81c8b3-02-5e2b43850271906e81059e437bd95c9cbef1201d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[2]"
-        }
-      ]
-    },
-    {
       "name": "unknown",
       "cluster": 2,
       "instances": [
@@ -601,19 +586,6 @@
       ]
     },
     {
-      "name": "Accordion",
-      "cluster": 26,
-      "key": "accordion26",
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
-          "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-          "uuid": "696fd41d-02-5e2b43850271906e81059e437bd95c9cbef1201d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[2]"
-        }
-      ]
-    },
-    {
       "name": "Cards",
       "cluster": 27,
       "key": "cards27",
@@ -720,6 +692,30 @@
           "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
           "urlHash": "331fb09800cff78fef525b022a936269e0486717",
           "uuid": "331fb098-02-5e2b43850271906e81059e437bd95c9cbef1201d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 35,
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
+          "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
+          "uuid": "696fd41d-02-5e2b43850271906e81059e437bd95c9cbef1201d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 36,
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
+          "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
+          "uuid": "bc81c8b3-02-5e2b43850271906e81059e437bd95c9cbef1201d",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[2]"
         }
       ]
