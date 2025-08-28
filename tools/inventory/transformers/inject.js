@@ -11,7 +11,13 @@
  */
 /* eslint-disable no-console */
 (() => {
+    // Update the flex-direction of the div(s) containing an aside element to 'column'
+  
+    // Get all aside elements and their parent divs
+   
+  // Remove site header for NRMA Home Loans pages
   try {
+    const href = (window.location && window.location.href) || '';
     // remove site header for NRMA Home Loans pages
     document.querySelector('.cmp-header-v2').remove()
 
@@ -29,4 +35,4 @@
   } catch (e) {
     // noop
   }
-})();
+  })();
