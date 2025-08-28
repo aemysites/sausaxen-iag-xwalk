@@ -69,10 +69,10 @@
 .accordion {
   width: 100%;
   margin: 0;
-  background: #F9F6F4;
+  background: #F7F7FB;
   box-sizing: border-box;
   padding: 0;
-  display: flex;
+  display: block;
   font-family: Inter, Arial, sans-serif;
   margin-left: 225px;
   margin-top: 34px;
@@ -87,11 +87,11 @@
 }
 
 .accordion .accordion-item {
-  border-bottom: 1px solid #E2DED9;
+  border-bottom: 1px solid #E4E4EA;
   margin: 0;
   padding: 0;
   width: 100%;
-  background: #F9F6F4;
+  background: #F7F7FB;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -130,8 +130,21 @@
 }
 
 .accordion .accordion-item-label > p {
-    padding-left: 0;
-  }
+    margin: 0;
+    color: #161B4E;
+    font-size: 16px;
+    font-weight: 500;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    min-height: 0;
+    letter-spacing: normal;
+    line-height: 1.4;
+    background: none;
+}
 
 .accordion .accordion-item-label::after {
   display: block;
@@ -170,10 +183,10 @@
 }
 
 .accordion .accordion-item-body {
-  padding: 21px 28px;
+  padding: 0 24px 18px;
   font-size: 16px;
-  color: #2A2152;
-  background: #F9F6F4;
+  color: #161B4E;
+  background: #F7F7FB;
   line-height: 1.5;
   box-sizing: border-box;
   border-top: 1px solid #e4e4e4;
@@ -186,7 +199,7 @@
 .accordion .accordion-item-body ol,
 .accordion .accordion-item-body ul {
   margin: 0 0 12px;
-  color: #2A2152;
+  color: #161B4E;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -400,13 +413,15 @@ details[open] > .accordion-item-label::after {
 
 .accordion .accordion-item-label svg,
 .accordion .accordion-item-label .chevron {
-  width: 14px;
-  height: 14px;
-  margin-left: 10px;
-  color: #18206d;
+  width: 18px;
+  height: 18px;
+  margin-left: 16px;
+  color: #161B4E;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  vertical-align: middle;
 }
 
 .accordion details summary::-webkit-details-marker,
@@ -485,29 +500,11 @@ details[open] > .accordion-item-label::after {
   }
 }
 
-/* Accordion row setup */
-
-/* Last row no border */
-
-/* Use Flexbox for accurate vertical centering with multiline */
-
-/* Question text: allow wrapping and vertical centering */
-
-/* Remove default summary marker */
 .accordion details summary::-webkit-details-marker,
 .accordion details summary::marker {
   display: none;
 }
 
-/* Chevron styling and alignment */
-
-/* Chevron rotates when open */
-
-/* Accordion expanded body */
-
-/* Body text styling */
-
-/* Responsive adjustments for smaller screens */
 @media (width <= 700px) {
   .accordion .accordion-item-label,
   .accordion .accordion-item-body {
@@ -529,4 +526,95 @@ details[open] > .accordion-item-label::after {
   .accordion .accordion-item-body ul {
     font-size: 15px;
   }
+}
+
+.accordion > .accordion.block {
+  background: #F7F7FB;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.accordion details > summary.accordion-item-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  width: 100%;
+  min-height: 0;
+  font-family: Inter, 'Help Type Text Web', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #161B4E;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  gap: 0;
+  box-sizing: border-box;
+  background: #F7F7FB;
+}
+
+/* Remove browser default marker from summary */
+.accordion details > summary.accordion-item-label::-webkit-details-marker,
+.accordion details > summary.accordion-item-label::marker {
+  display: none;
+}
+
+/* Ensure question text is left-aligned and fills available space */
+
+/* Move any inline SVG or .chevron in summary to the right with spacing */
+
+/* Details body (expanded content) */
+
+/* Inner content in body */
+
+/* Responsive tweaks: reduce padding and icon size */
+@media (width <= 700px) {
+  .accordion details > summary.accordion-item-label,
+  .accordion .accordion-item-body {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .accordion details > summary.accordion-item-label {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .accordion .accordion-item-body {
+    padding-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .accordion .accordion-item-label svg,
+  .accordion .accordion-item-label .chevron {
+    width: 16px;
+    height: 16px;
+    margin-left: 12px;
+  }
+}
+
+/* Remove highlight or hover background color for minimal look */
+.accordion details > summary.accordion-item-label:hover,
+.accordion details[open] > summary.accordion-item-label,
+.accordion details > summary.accordion-item-label:focus {
+  background: #F7F7FB;
+}
+
+/* Focus style for accessibility */
+.accordion details > summary.accordion-item-label:focus-visible {
+  outline: 2px solid #161B4E;
+  outline-offset: 2px;
+}
+
+/* Ensure all .accordion children display as intended */
+.accordion details,
+.accordion .accordion-item,
+.accordion details > summary.accordion-item-label,
+.accordion .accordion-item-body {
+  box-sizing: border-box;
 }
