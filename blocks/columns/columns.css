@@ -305,7 +305,6 @@
 
 
 .columns.columns2 > div {
-  /* Center columns vertically for proper alignment */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -317,7 +316,6 @@
   box-sizing: border-box;
 }
 
-/* Responsive: stack columns vertically and center horizontally */
 @media (width <= 900px) {
   .columns.columns2 > div {
     flex-direction: column;
@@ -328,7 +326,6 @@
   }
 }
 
-/* Left column: illustration block, vertically centered */
 .columns.columns2 > div > div:first-child {
   position: relative;
   flex: 0 0 380px;
@@ -348,7 +345,6 @@
   background-position: center center;
 }
 
-/* Remove placeholder "null" visually */
 .columns.columns2 > div > div:first-child p {
   color: transparent;
   font-size: 0;
@@ -358,7 +354,6 @@
   pointer-events: none;
 }
 
-/* Right column: text block, vertically centered */
 .columns.columns2 > div > div:last-child {
   flex: 1 1 440px;
   min-width: 320px;
@@ -372,7 +367,6 @@
   gap: 0;
 }
 
-/* Heading styling */
 .columns.columns2 > div > div:last-child h2 {
   font-family: var(--heading-font-family);
   font-size: 38px;
@@ -384,7 +378,6 @@
   letter-spacing: -0.5px;
 }
 
-/* Intro paragraph styling */
 .columns.columns2 > div > div:last-child > p:not(:last-child) {
   font-size: 18px;
   line-height: 1.5;
@@ -393,7 +386,6 @@
   text-align: left;
 }
 
-/* Ordered list styling */
 .columns.columns2 > div > div:last-child ol {
   font-size: 18px;
   line-height: 1.5;
@@ -414,7 +406,6 @@
   color: #010c66;
 }
 
-/* CTA row: button + link horizontal, left-aligned under content */
 .columns.columns2 > div > div:last-child p:last-child {
   display: flex;
   flex-direction: row;
@@ -425,7 +416,6 @@
   text-align: left;
 }
 
-/* "Apply now" styled as button */
 .columns.columns2 > div > div:last-child p:last-child a:first-child {
   background: #010c66;
   color: #fff;
@@ -449,7 +439,6 @@
   background: #039;
 }
 
-/* "What do I need?" styled as blue link with right arrow */
 .columns.columns2 > div > div:last-child p:last-child a:last-child {
   color: #010c66;
   font-size: 20px;
@@ -464,7 +453,6 @@
   text-align: left;
 }
 
-/* Arrow icon for the "What do I need?" link (use image/svg path as needed) */
 .columns.columns2 > div > div:last-child p:last-child a:last-child::after {
   display: inline-block;
   width: 22px;
@@ -474,7 +462,6 @@
   background-size: contain;
 }
 
-/* Responsive adjustments for CTA row */
 @media (width <= 600px) {
   .columns.columns2 > div > div:last-child p:last-child {
     flex-direction: column;
@@ -483,7 +470,6 @@
   }
 }
 
-/* Ensure all section text is blue */
 .columns.columns2 > div > div:last-child,
 .columns.columns2 > div > div:last-child h2,
 .columns.columns2 > div > div:last-child p,
@@ -492,4 +478,108 @@
   color: #010c66;
 }
 
-/* Ordered list numbers: browser default gives "1." format */
+
+.columns.columns17 {
+  background: #fffbfa;
+  padding: 32px 0;
+}
+
+.columns.columns17 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 48px;
+  min-height: 90px;
+}
+
+.columns.columns17 > div > div {
+  min-width: 0;
+}
+
+/* LEFT COLUMN: Text content with improved width for natural wrapping */
+.columns.columns17 > div > div:first-child {
+  flex: 2 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px; /* allow more space for paragraph to avoid awkward wrap */
+}
+
+/* Heading */
+.columns.columns17 h2 {
+  font-family: var(--heading-font-family);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1a275a;
+  margin: 0 0 8px;
+  line-height: 1.25;
+  overflow-wrap: break-word; /* Fixed deprecated keyword */
+}
+
+/* Paragraph */
+.columns.columns17 p {
+  font-family: var(--body-font-family);
+  font-size: 1rem;
+  color: #1a275a;
+  margin: 0 0 4px;
+  line-height: 1.5;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word; /* Added overflow-wrap to adhere to best practices while maintaining functionality */
+  letter-spacing: 0;
+}
+
+.columns.columns17 em {
+  font-style: italic;
+}
+
+.columns.columns17 sup,
+.columns.columns17 p a[title=""] {
+  font-size: 0.75em;
+  vertical-align: super;
+  color: #6c6c6c;
+  font-weight: normal;
+  background: none;
+  border: none;
+  margin-left: 2px;
+}
+
+.columns.columns17 .button-container {
+  display: none;
+}
+
+/* RIGHT COLUMN: Collapses if empty, but when present, aligns & sizes badges */
+.columns.columns17 > div > div:last-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-end;
+  min-width: 0;   /* let left flex grow */
+  min-height: 64px;
+}
+
+/* Responsive: stack on mobile */
+@media (width <= 700px) {
+  .columns.columns17 > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+    min-height: unset;
+  }
+
+  .columns.columns17 > div > div:first-child {
+    max-width: 100%;
+  }
+
+  .columns.columns17 > div > div:last-child {
+    justify-content: flex-start;
+    margin-top: 16px;
+    width: 100%;
+  }
+}
