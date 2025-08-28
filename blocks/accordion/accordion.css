@@ -69,7 +69,7 @@
 .accordion {
   width: 100%;
   margin: 0;
-  background: #fff;
+  background: #F7F7F7;
   box-sizing: border-box;
   padding: 0;
   display: flex;
@@ -78,8 +78,8 @@
   margin-top: 34px;
   margin-bottom: 34px;
   max-width: 500px;
-  min-width: 320px;
-  border: 1px solid #d6d6d6;
+  min-width: 0;
+  border: none;
   border-radius: 4px;
   flex-direction: column;
   align-items: stretch;
@@ -87,13 +87,14 @@
 }
 
 .accordion .accordion-item {
-  border-bottom: 1px solid #d6d6d6;
+  border-bottom: 1px solid #e4e4e4;
   margin: 0;
   padding: 0;
   width: 100%;
-  background: #fff;
+  background: #F7F7F7;
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .accordion .accordion-item:last-child {
@@ -106,9 +107,9 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 12px 22px;
-  min-height: 44px;
-  background: #fff;
+  padding: 9px 14px 9px 4px;
+  min-height: 38px;
+  background: #F7F7F7;
   box-sizing: border-box;
   cursor: pointer;
   border: none;
@@ -131,8 +132,8 @@
 .accordion .accordion-item-label > p {
   margin: 0;
   font-size: 16px;
-  font-weight: 600;
-  color: #18206d;
+  font-weight: 500;
+  color: #1A1446;
   flex: 1 1 auto;
   line-height: 1.4;
   text-align: left;
@@ -142,10 +143,11 @@
   letter-spacing: normal;
   padding: 0;
   box-sizing: border-box;
+  font-family: Inter, 'Help Type Text Web', Arial, sans-serif;
 }
 
 .accordion .accordion-item-label::after {
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -156,7 +158,7 @@
   box-sizing: border-box;
   transform: translateY(-50%);
   transition: transform 0.2s;
-  background: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 10L12 15L17 10" stroke="%2318195A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat center center;
+  background: url('data:image/svg+xml;utf8,<svg fill="%231A1446" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>') no-repeat center center;
   mask: none;
   margin-right: 0;
   position: relative;
@@ -168,23 +170,24 @@
   border-bottom: 0;
   pointer-events: none;
   content: "";
-  background-size: 16px 16px;
+  background-size: contain;
+  vertical-align: middle;
 }
 
 .accordion details[open] > .accordion-item-label::after {
-  transform: translateY(-56%) rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .accordion .accordion-item-body {
-  padding: 0 22px 12px;
-  font-size: 15px;
-  color: #18206d;
+  padding: 9px 14px 9px 4px;
+  font-size: 16px;
+  color: #1A1446;
   background: #fff;
   line-height: 1.5;
   box-sizing: border-box;
-  border-top: none;
+  border-top: 1px solid #e4e4e4;
   display: block;
-  font-family: var(--body-font-family);
+  font-family: Inter, 'Help Type Text Web', Arial, sans-serif;
   width: 100%;
 }
 
@@ -404,13 +407,6 @@ details[open] > .accordion-item-label::after {
   }
 }
 
-/* Accordion item rows */
-
-/* Row layout and padding for more compact vertical rhythm */
-
-/* Label text styling */
-
-/* Chevron/icon alignment and sizing */
 .accordion .accordion-item-label svg,
 .accordion .accordion-item-label .chevron {
   width: 14px;
@@ -422,16 +418,12 @@ details[open] > .accordion-item-label::after {
   justify-content: center;
 }
 
-/* Hide details marker for summary */
 .accordion details summary::-webkit-details-marker,
 .accordion details summary::marker,
 .accordion .accordion-item-label::marker {
   display: none;
 }
 
-/* Accordion item body padding */
-
-/* Responsive: decrease margins/padding for mobile */
 @media (width <= 700px) {
   .accordion {
     margin: 10px 0;
@@ -465,4 +457,56 @@ details[open] > .accordion-item-label::after {
   }
 }
 
-/* Remove background on open/hover/focus for summary */
+/* Ensure the block and its rows are visible and fill space */
+
+/* Last row shouldn't have a divider */
+
+/* Layout and vertical alignment for each summary row */
+
+/* Text styling: Medium weight, visually left-aligned */
+
+/* Remove browser default marker for details/summary */
+.accordion details summary::-webkit-details-marker,
+.accordion .accordion-item-label::marker,
+.accordion details summary::marker {
+  display: none;
+}
+
+/* Chevron arrow using SVG background image, aligning with text */
+
+/* Rotate chevron when open */
+
+/* Row hover state */
+.accordion .accordion-item-label:hover {
+  background: #F7F7F7;
+}
+
+/* Accordion expanded body */
+
+/* Responsive adjustments */
+@media (width <= 700px) {
+  .accordion .accordion-item-label,
+  .accordion .accordion-item-body {
+    padding-left: 2px;
+    padding-right: 8px;
+  }
+
+  .accordion .accordion-item-label {
+    min-height: 32px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .accordion .accordion-item-body {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+  }
+
+  .accordion .accordion-item-label::after {
+    width: 12px;
+    height: 12px;
+    margin-left: 6px;
+    background-size: 12px 12px;
+  }
+}
