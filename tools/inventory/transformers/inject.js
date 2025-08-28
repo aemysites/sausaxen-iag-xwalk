@@ -11,28 +11,23 @@
  */
 /* eslint-disable no-console */
 (() => {
-    // Update the flex-direction of the div(s) containing an aside element to 'column'
-  
-    // Get all aside elements and their parent divs
    
-  // Remove site header for NRMA Home Loans pages
-  try {
-    const href = (window.location && window.location.href) || '';
-    // remove site header for NRMA Home Loans pages
-    document.querySelector('.cmp-header-v2').remove()
-
-    // remove modal for NRMA Home Loans pages
-    document.querySelector('#chatXfModal').remove()
-
-    // remove chatbot for NRMA Home Loans pages
-    document.querySelector('#nuanMessagingFrame').remove()
-
-    // remove footer for NRMA Home Loans pages
-    document.querySelector('.cmp-footer--generic-template').remove()
-
-    // Remove site header for NRMA pages
-    document.querySelector('#nav-bar').remove()
-  } catch (e) {
-    // noop
-  }
+    try {
+        // remove site header for NRMA Home Loans pages
+        document.querySelector('.cmp-header-v2')?.remove();
+    
+        // remove modal for NRMA Home Loans pages
+        document.querySelector('#chatXfModal')?.remove();
+    
+        // remove chatbot for NRMA Home Loans pages
+        document.querySelector('#nuanMessagingFrame')?.remove();
+    
+        // remove footer for NRMA Home Loans pages
+        document.querySelector('.cmp-footer--generic-template')?.remove();
+    
+        // Remove site header for NRMA pages
+        document.querySelector('#nav-bar')?.remove();
+      } catch (e) {
+        // noop
+      }
   })();
