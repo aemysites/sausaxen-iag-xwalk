@@ -33,7 +33,7 @@ export default function parse(element, { document }) {
       }
     }
     // Add this card row (always one column)
-    rows.push([cellContents]);
+    rows.push([[], cellContents]);
   });
 
   // Create the block table and replace the original element

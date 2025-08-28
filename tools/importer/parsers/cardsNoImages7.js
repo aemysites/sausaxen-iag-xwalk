@@ -39,9 +39,9 @@ export default function parse(element, { document }) {
         }
         // If only one piece (heading or CTA), just use the element. If multiple, use array to preserve order.
         if (cardContent.length === 1) {
-          cardRows.push([cardContent[0]]);
+          cardRows.push([[], cardContent[0]]);
         } else {
-          cardRows.push([cardContent]);
+          cardRows.push([[], cardContent]);
         }
       }
     });

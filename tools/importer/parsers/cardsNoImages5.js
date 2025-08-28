@@ -23,7 +23,7 @@ export default function parse(element, { document }) {
     if (description) cellContent.push(description);
     // Only add if there is some content
     if (cellContent.length > 0) {
-      rows.push([cellContent]);
+      rows.push([[], cellContent]);
     }
   });
 
