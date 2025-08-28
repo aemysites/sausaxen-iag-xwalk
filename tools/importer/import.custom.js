@@ -36,4 +36,26 @@ export const customElements = [];
 /**
  * Custom transformers
  */
-export const customTransformers = {};
+export const customTransformers = {
+    inject: (hookName, element, { document }) => {
+        if (hookName === 'beforeTransform') {
+            try {
+                // remove site header for NRMA Home Loans pages
+                document.querySelector('#aem-header-iframe-container')?.remove();
+                document.querySelector('.cmp-header-v2')?.remove();
+            
+                // Remove site footer for NRMA pages
+                document.querySelector('#aem-footer-iframe-container')?.remove();
+                document.querySelector('.cmp-footer--generic-template')?.remove();
+        
+                // remove chatbot for NRMA Home Loans pages
+                document.querySelector('#nuanMessagingFrame')?.remove();
+                document.querySelector('#chatXfModal')?.remove();
+            
+              } catch (e) {
+                // noop
+              }
+        
+        }
+      },
+};
