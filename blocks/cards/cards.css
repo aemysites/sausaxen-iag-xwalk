@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -44,17 +43,10 @@
 
 
 .cards {
-  background: #f6f6e6;
-  padding: 24px 0;
+  background: #FFF9F8;
+  padding: 40px 0;
 }
 
-/* Grid layout: tightest horizontal spacing, 3 columns */
-
-/* Card: compact, subtle shadow, round corners */
-
-/* Card body: minimal top/bottom padding */
-
-/* Heading: bold blue, slightly larger, tight margin */
 .cards .cards-card-body h3 {
   color: #002878;
   font-size: 1.5rem;
@@ -65,7 +57,6 @@
   letter-spacing: 0.01em;
 }
 
-/* Description: left, very minimal space below */
 .cards .cards-card-body p {
   color: #002878;
   font-size: 1rem;
@@ -75,14 +66,12 @@
   text-align: left;
 }
 
-/* Button container: minimal margin, center horizontally */
 .cards .button-container {
   width: 100%;
   margin-top: 4px;
   text-align: center;
 }
 
-/* Button: compact, bold, visually matching original */
 .cards .button-container .button {
   background: #011d53;
   color: #fff;
@@ -107,9 +96,6 @@
   background: #039;
 }
 
-/* Remove any bottom margin from button for tightness */
-
-/* Responsive: stack cards and adjust padding/gaps */
 @media (width <= 900px) {
   .cards > ul {
     grid-template-columns: repeat(2, 1fr);
@@ -133,5 +119,136 @@
 
   .cards .cards-card-body {
     padding: 2px;
+  }
+}
+
+/* Grid container: slightly wider cards, tight gap, fully centered group */
+.cards > .block[data-block-name="cards"] > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1080px;
+  list-style: none;
+}
+
+/* Card styling: wider, more padding for vertical balance */
+.cards > .block[data-block-name="cards"] > ul > li {
+  background: #fff;
+  border: 1px solid #EDEDED;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 3%);
+  width: 340px;
+  max-width: 360px;
+  min-width: 220px;
+  padding: 28px 24px 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  transition: box-shadow 0.2s;
+}
+
+/* Card hover effect */
+.cards > .block[data-block-name="cards"] > ul > li:hover {
+  box-shadow: 0 8px 24px rgb(1 30 96 / 8%);
+}
+
+/* First .cards-card-body (icon row): remove spacing if icon not present */
+.cards > .block[data-block-name="cards"] > ul > li > .cards-card-body:first-child {
+  margin-bottom: 0;
+  min-height: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Headline: bigger/bolder */
+.cards > .block[data-block-name="cards"] .cards-card-body h3 {
+  color: #011E60;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  margin: 0 0 14px;
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+/* Body text: larger and lighter */
+.cards > .block[data-block-name="cards"] .cards-card-body p {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: var(--body-font-family);
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+/* Button container: more space above button */
+.cards > .block[data-block-name="cards"] .button-container {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Button: more generous pill width, perfectly centered */
+.cards > .block[data-block-name="cards"] .button-container .button {
+  background: #011E60;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 28px;
+  padding: 14px 34px;
+  box-shadow: none;
+  border: none;
+  letter-spacing: 0;
+  display: inline-block;
+  max-width: none;
+  overflow: visible;
+  text-overflow: unset;
+  white-space: normal;
+  margin: 0 auto;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+/* Button hover/focus */
+.cards > .block[data-block-name="cards"] .button-container .button:hover,
+.cards > .block[data-block-name="cards"] .button-container .button:focus {
+  background: #039;
+}
+
+/* Responsive: stack cards, adjust sizing and padding */
+@media (width <= 950px) {
+  .cards > .block[data-block-name="cards"] > ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 740px;
+  }
+
+  .cards > .block[data-block-name="cards"] > ul > li {
+    max-width: 350px;
+    width: 100%;
+  }
+}
+
+@media (width <= 600px) {
+  .cards > .block[data-block-name="cards"] > ul {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    max-width: 98vw;
+  }
+
+  .cards > .block[data-block-name="cards"] > ul > li {
+    max-width: 98vw;
+    min-width: 0;
+    padding: 16px 6px 10px;
+  }
+
+  .cards > .block[data-block-name="cards"] .cards-card-body {
+    padding: 2px 0 0;
   }
 }
