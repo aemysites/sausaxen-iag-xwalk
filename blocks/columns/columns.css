@@ -498,17 +498,15 @@
   min-width: 0;
 }
 
-/* LEFT COLUMN: Text content with improved width for natural wrapping */
 .columns.columns17 > div > div:first-child {
   flex: 2 1 0;
   min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 800px; /* allow more space for paragraph to avoid awkward wrap */
+  max-width: 800px;
 }
 
-/* Heading */
 .columns.columns17 h2 {
   font-family: var(--heading-font-family);
   font-size: 1.125rem;
@@ -516,10 +514,9 @@
   color: #1a275a;
   margin: 0 0 8px;
   line-height: 1.25;
-  overflow-wrap: break-word; /* Fixed deprecated keyword */
+  overflow-wrap: break-word;
 }
 
-/* Paragraph */
 .columns.columns17 p {
   font-family: var(--body-font-family);
   font-size: 1rem;
@@ -528,7 +525,7 @@
   line-height: 1.5;
   white-space: normal;
   word-break: break-word;
-  overflow-wrap: break-word; /* Added overflow-wrap to adhere to best practices while maintaining functionality */
+  overflow-wrap: break-word;
   letter-spacing: 0;
 }
 
@@ -551,18 +548,16 @@
   display: none;
 }
 
-/* RIGHT COLUMN: Collapses if empty, but when present, aligns & sizes badges */
 .columns.columns17 > div > div:last-child {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 16px;
   justify-content: flex-end;
-  min-width: 0;   /* let left flex grow */
+  min-width: 0;
   min-height: 64px;
 }
 
-/* Responsive: stack on mobile */
 @media (width <= 700px) {
   .columns.columns17 > div {
     flex-direction: column;
@@ -581,5 +576,107 @@
     justify-content: flex-start;
     margin-top: 16px;
     width: 100%;
+  }
+}
+
+
+.columns.columns21 {
+  background: #f9f7f6;
+
+  /* Remove double padding and min-height here */
+}
+
+.columns.columns21 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* vertical centering for columns */
+  justify-content: flex-start;
+  padding: 32px 40px;
+  gap: 48px;
+  min-height: 180px;
+  box-sizing: border-box;
+}
+
+.columns.columns21 > div > div {
+  /* Ensure both columns are present & side by side */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center content inside column */
+  min-width: 0;
+  height: 100%;
+}
+
+/* Left column (text block) */
+.columns.columns21 > div > div:first-child {
+  flex: 1 1 0;
+  max-width: 540px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.columns.columns21 h2 {
+  color: #00205b;
+  font-family: Graphik, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.25;
+}
+
+/* Paragraph */
+.columns.columns21 p {
+  color: #00205b;
+  font-family: Graphik, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Right column (logo area) */
+.columns.columns21 > div > div:last-child {
+  flex: 0 0 220px;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 180px;
+  min-height: 56px;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+/* Logo image styling (if present) */
+.columns.columns21 > div > div:last-child img,
+.columns.columns21 > div > div:last-child svg {
+  max-height: 56px;
+  height: 56px;
+  width: auto;
+  display: block;
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 900px) {
+  .columns.columns21 > div {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 24px 16px;
+    gap: 24px;
+  }
+
+  .columns.columns21 > div > div {
+    max-width: none;
+    min-width: 0;
+    padding: 0;
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .columns.columns21 > div > div:last-child {
+    margin-top: 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
