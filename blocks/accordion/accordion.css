@@ -77,9 +77,9 @@
 .accordion {
   width: 100%;
   margin: 0;
-  background: #F9F7F5;
+  background: #FAF9F6;
   box-sizing: border-box;
-  padding: 44px 0 40px;
+  padding: 32px 0;
   display: flex;
   font-family: Inter, Arial, sans-serif;
   margin-left: 225px;
@@ -88,11 +88,12 @@
   max-width: none;
   min-width: 0;
   border: none;
-  border-radius: 4px;
+  border-radius: 0;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
   min-height: 220px;
+  box-shadow: none;
 }
 
 .accordion .accordion-item {
@@ -753,61 +754,70 @@ details[open] > .accordion-item-label::after {
   }
 }
 
-/* Accordion block container: visible white box, centered, max width, border */
 .accordion > .block {
-  background: #fff;
-  border: 1px solid #D4D4D4;
-  border-radius: 2px;
+  background: none;
+  border: none;
+  border-radius: 0;
   box-sizing: border-box;
   width: 100%;
-  max-width: 420px;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   box-shadow: none;
+  padding: 0;
 }
 
-/* Accordion items: dividers between rows except last */
 .accordion > .block > .accordion-item {
-  background: #fff;
+  background: #FAF9F6;
   border-bottom: 1px solid #D4D4D4;
   margin: 0;
   box-sizing: border-box;
+  border: none;
+  margin-bottom: 6px;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .accordion > .block > .accordion-item:last-child {
   border-bottom: none;
+  margin-bottom: 0;
 }
 
-/* Accordion summary/label row styling */
 .accordion > .block > .accordion-item > .accordion-item-label {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  min-height: 44px;
-  padding: 16px 24px;
-  font-family: var(--body-font-family);
-  font-size: 14px;
-  font-weight: 600;
-  color: #18206D;
-  background: #fff;
+  min-height: 0;
+  padding: 18px 24px;
+  font-family: var(--body-font-family, Arial, sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  color: #1A237E;
+  background: #FAF9F6;
   cursor: pointer;
   border: none;
   outline: none;
   box-sizing: border-box;
   transition: background 0.15s;
+  margin: 0;
+  border-radius: 0;
+  width: 100%;
 }
 
-/* Accordion label text */
 .accordion > .block > .accordion-item > .accordion-item-label > p {
-  color: #18206D;
-  font-size: 14px;
-  font-weight: 600;
+  color: #1A237E;
+  font-size: 16px;
+  font-weight: 400;
   margin: 0;
   padding: 0;
-  flex: 1 1 auto;
+  flex: 1 1 0;
   text-align: left;
   background: none;
   display: flex;
@@ -817,33 +827,33 @@ details[open] > .accordion-item-label::after {
   letter-spacing: normal;
 }
 
-/* Chevron or arrow SVG styling (markup chevron or SVG) */
 .accordion > .block > .accordion-item > .accordion-item-label svg,
 .accordion > .block > .accordion-item > .accordion-item-label .chevron {
-  width: 18px;
-  height: 18px;
-  color: #18206D;
-  margin-left: 14px;
+  width: 20px;
+  height: 20px;
+  color: #1A237E;
+  margin-left: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+  flex-shrink: 0;
 }
 
-/* Accordion expanded body styling */
 .accordion > .block > .accordion-item > .accordion-item-body {
-  padding: 0 24px 12px;
-  font-size: 14px;
-  color: #18206D;
-  background: #fff;
+  padding: 0 24px 16px;
+  font-size: 16px;
+  color: #1A237E;
+  background: #FAF9F6;
   line-height: 1.5;
   box-sizing: border-box;
   margin: 0;
   width: 100%;
   border: none;
+  border-radius: 0;
+  display: block;
 }
 
-/* Responsive: stack accordion on mobile and reduce paddings/margin */
 @media (width <= 700px) {
   .accordion {
     padding: 18px 0;
@@ -863,8 +873,75 @@ details[open] > .accordion-item-label::after {
   }
 }
 
-/* Hide default summary marker for clean row look */
 .accordion > .block > .accordion-item > .accordion-item-label::-webkit-details-marker,
 .accordion > .block > .accordion-item > .accordion-item-label::marker {
   display: none;
+}
+
+/* Accordion block container */
+
+/* Accordion item: off-white bg, gap for separation */
+
+/* Summary row: off-white bg, flex for alignment */
+
+.accordion > .block > .accordion-item > .accordion-item-label:focus,
+.accordion > .block > .accordion-item > .accordion-item-label:hover {
+  background: #F3F6F8;
+}
+
+/* Remove default marker from summary */
+
+/* Question text alignment and style */
+
+/* Chevron icon alignment */
+
+/* Remove outlines/shadows on focus */
+.accordion > .block > .accordion-item > .accordion-item-label:focus-visible {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+/* Expanded content/body area styles - off-white bg to blend with row */
+
+/* Remove accidental border/shadow/radius from all subelements except items */
+.accordion, .accordion > .block {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* Responsive adjustments */
+@media (width <= 700px) {
+  .accordion {
+    padding: 16px 0;
+  }
+
+  .accordion > .block > .accordion-item > .accordion-item-label,
+  .accordion > .block > .accordion-item > .accordion-item-body {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .accordion > .block > .accordion-item > .accordion-item-label {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 16px;
+  }
+
+  .accordion > .block > .accordion-item > .accordion-item-body {
+    font-size: 16px;
+  }
+
+  .accordion > .block > .accordion-item > .accordion-item-label svg,
+  .accordion > .block > .accordion-item > .accordion-item-label .chevron {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+  }
+}
+
+/* Remove border for details element if any browser applies it */
+.accordion > .block > .accordion-item,
+.accordion > .block > .accordion-item[open] {
+  border: none;
 }
