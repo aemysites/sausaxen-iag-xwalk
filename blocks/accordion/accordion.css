@@ -69,18 +69,19 @@
 .accordion {
   width: 100%;
   margin: 0;
-  background: #FAF9F6;
+  background: #F7F6F6;
   box-sizing: border-box;
   padding: 0;
   display: block;
+  font-family: Inter, Arial, sans-serif;
 }
 
 .accordion .accordion-item {
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #DFDBDB;
   margin: 0;
   padding: 0;
   width: 100%;
-  background: transparent;
+  background: #F7F6F6;
   box-sizing: border-box;
   display: block;
 }
@@ -95,7 +96,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 14px;
+  padding: 16px 40px 16px 24px;
   min-height: 0;
   background: transparent;
   box-sizing: border-box;
@@ -103,6 +104,12 @@
   border: none;
   outline: none;
   gap: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #00145A;
+  position: relative;
+  line-height: 1.6;
 }
 
 .accordion .accordion-item-label::-webkit-details-marker,
@@ -125,48 +132,58 @@
 }
 
 .accordion .accordion-item-label::after {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
-  width: 14px;
-  height: 14px;
+  width: 0;
+  height: 0;
   margin-left: 0;
   border: solid #001F5B;
   border-width: 0 1px 1px 0;
-  box-sizing: border-box;
-  transform: rotate(45deg);
-  transition: transform 0.3s;
+  box-sizing: content-box;
+  transform: translateY(-56%);
+  transition: transform 0.2s;
   background: none;
   mask: none;
   margin-right: 0;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 7px solid #00145A;
+  border-bottom: 0;
+  pointer-events: none;
+  content: "";
 }
 
 .accordion details[open] > .accordion-item-label::after {
-  transform: rotate(-135deg);
+  transform: translateY(-56%) rotate(180deg);
 }
 
 .accordion .accordion-item-body {
-  padding: 0 14px 14px;
+  padding: 16px 24px;
   font-size: 15px;
-  color: #001F5B;
+  color: #00145A;
   background: transparent;
   line-height: 1.4;
   box-sizing: border-box;
   border-top: none;
   display: block;
+  font-family: Inter, Arial, sans-serif;
 }
 
 .accordion .accordion-item-body p,
 .accordion .accordion-item-body ol,
 .accordion .accordion-item-body ul {
   margin: 0 0 8px;
-  color: #001F5B;
+  color: #00145A;
   font-size: 15px;
   line-height: 1.4;
 }
 
 .accordion .accordion-item-body a {
-  color: #001F5B;
+  color: #00145A;
   text-decoration: underline;
   font-weight: 500;
 }
@@ -186,34 +203,12 @@
   }
 }
 
-/* Restore block and row visibility */
-
-/* Ensure last row has no border-bottom */
-
-/* FAQ row: label and chevron side-by-side, flush left/right */
-
-/* FAQ text left-aligned, blue, medium weight */
-
-/* Hide browser marker */
-
-/* Custom chevron: medium size, thin, vertically centered and flush right */
-
-/* Chevron rotates when open */
-
-/* FAQ body content - matches label horizontal alignment */
-
-/* Body text spacing */
-
-/* FAQ links */
-
-/* No hover/open background color for summary */
 .accordion details[open] summary,
 .accordion details summary:focus,
 .accordion details summary:hover {
   background: transparent;
 }
 
-/* Responsive: slightly tighter padding on mobile */
 @media (width <= 600px) {
   .accordion .accordion-item-label,
   .accordion .accordion-item-body {
@@ -234,5 +229,50 @@
     width: 11px;
     height: 11px;
     border-width: 0 1px 1px 0;
+  }
+}
+
+.accordion .accordion-item-label p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #00145A;
+  flex: 1 1 auto;
+  line-height: 1.6;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  letter-spacing: normal;
+  min-height: 0;
+}
+
+/* Remove default markers */
+
+/* Chevron: Wider, squatter, and perfectly centered */
+
+@media (width <= 600px) {
+  .accordion .accordion-item-label,
+  .accordion .accordion-item-body {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .accordion .accordion-item-label {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 32px;
+  }
+
+  .accordion .accordion-item-body {
+    padding-bottom: 12px;
+  }
+
+  .accordion .accordion-item-label::after {
+    right: 12px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 6px solid #00145A;
+    transform: translateY(-56%);
   }
 }
