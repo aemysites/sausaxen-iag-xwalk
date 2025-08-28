@@ -38,8 +38,8 @@
         {
           "url": "https://www.nrma.com.au/home-loans/complaints",
           "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-00-6072c4e3c146c8950d80494d39eadc1562cb57fb",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+          "uuid": "b7fdc77b-00-55406fc4d07096d53dc70908846555d33550e7d4",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
@@ -96,25 +96,25 @@
         {
           "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
           "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-          "uuid": "331fb098-08-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
+          "uuid": "331fb098-09-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
           "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-          "uuid": "331fb098-09-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+          "uuid": "331fb098-10-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
           "xpath": "/html[1]/body[1]/div[4]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
           "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-          "uuid": "696fd41d-08-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
+          "uuid": "696fd41d-09-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
           "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-          "uuid": "696fd41d-09-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+          "uuid": "696fd41d-10-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
           "xpath": "/html[1]/body[1]/div[4]"
         },
         {
@@ -132,85 +132,85 @@
         {
           "url": "https://www.nrma.com.au/home-loans/complaints",
           "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-09-d23df01e31629b4bd0e718450c7dbe7851582335",
-          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+          "uuid": "b7fdc77b-02-2dbeea1a4caf40d2c645173c71818a6c6c93f402",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/complaints",
           "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-10-17a2d8b7c2f0e41c65062dbbc04730508e0eb617",
-          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+          "uuid": "b7fdc77b-03-bd909553d7094631c4e8151d7ab8745acc9400f0",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
           "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-          "uuid": "bc81c8b3-09-dcd18cd5669d4e4f7692d4970da3d09d25805301",
+          "uuid": "bc81c8b3-10-dcd18cd5669d4e4f7692d4970da3d09d25805301",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[7]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
           "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-          "uuid": "bc81c8b3-10-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+          "uuid": "bc81c8b3-11-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
           "xpath": "/html[1]/body[1]/div[4]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-16-809bb138c0ecd40cc9326f2e3f74e4623b945823",
+          "uuid": "bcb8db4f-17-809bb138c0ecd40cc9326f2e3f74e4623b945823",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[10]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-17-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+          "uuid": "bcb8db4f-18-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
           "xpath": "/html[1]/body[1]/div[4]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans",
           "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-20-0afe7fbabf84401586bfc185033bacf023b08b2d",
+          "uuid": "c6fa4982-21-0afe7fbabf84401586bfc185033bacf023b08b2d",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[13]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans",
           "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-21-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+          "uuid": "c6fa4982-22-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
           "xpath": "/html[1]/body[1]/div[4]"
         }
       ],
-      "styles": {}
+      "styles": {
+        "background": "rgba(255, 255, 255, 0) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
     }
   ],
   "blocks": [
     {
-      "name": "unknown",
+      "name": "Columns",
       "cluster": 1,
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans/complaints",
-          "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-05-9106dfac9628ba98410b5e904ea3f16afd7a499f",
-          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
-          "section": "section-4"
-        },
-        {
-          "url": "https://www.nrma.com.au/home-loans/complaints",
-          "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-07-6ec447c9f52a95650a0e8e17efd22932ed9f1b97",
-          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
-          "section": "section-4"
-        }
-      ]
-    },
-    {
-      "name": "unknown",
-      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns1)",
+      "key": "columns1",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
           "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-          "uuid": "bc81c8b3-02-5bedc05ca1e50f0bcc21b568cc600e801fe9e021",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]"
+          "uuid": "bc81c8b3-03-5e2b43850271906e81059e437bd95c9cbef1201d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns2)",
+      "key": "columns2",
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans",
+          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
+          "uuid": "c6fa4982-13-9cb904cb1e32b29706d3e4d00cebcf3d706330af",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[8]"
         }
       ]
     },
@@ -222,55 +222,46 @@
       "key": "columns3",
       "instances": [
         {
-          "url": "https://www.nrma.com.au/home-loans",
-          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-12-9cb904cb1e32b29706d3e4d00cebcf3d706330af",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[8]"
+          "url": "https://www.nrma.com.au/home-loans/complaints",
+          "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
+          "uuid": "b7fdc77b-01-c5135aff54d5ca7755ee30af0efebe122bf543b7",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans/complaints",
+          "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
+          "uuid": "b7fdc77b-02-2dbeea1a4caf40d2c645173c71818a6c6c93f402",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
         }
       ]
     },
     {
       "name": "Accordion",
       "cluster": 4,
-      "source": "Accordion",
-      "target": "Accordion (accordion4)",
       "key": "accordion4",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-06-aa8c8c52f687ddd504488a66a491e005b5d235c7",
+          "uuid": "bcb8db4f-07-aa8c8c52f687ddd504488a66a491e005b5d235c7",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/div[1]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans",
           "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-17-a2928a21e2bc76fe321c77282b7eac7e4daf12f3",
+          "uuid": "c6fa4982-18-a2928a21e2bc76fe321c77282b7eac7e4daf12f3",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[11]/section[1]/div[1]/div[1]/div[1]/div[1]"
         }
       ]
     },
     {
-      "name": "Cards (no images)",
-      "cluster": 5,
-      "source": "Cards",
-      "target": "Cards (cardsNoImages5)",
-      "key": "cardsNoImages5",
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans",
-          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-08-88d507863651f1f0ffdb528cd79bc69ab27fb56d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/div[1]/div[1]/div[1]"
-        }
-      ]
-    },
-    {
       "name": "Columns",
-      "cluster": 6,
+      "cluster": 5,
       "source": "Columns",
-      "target": "Columns (columns6)",
-      "key": "columns6",
+      "target": "Columns (columns5)",
+      "key": "columns5",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/contact-us",
@@ -281,47 +272,60 @@
       ]
     },
     {
-      "name": "Cards (no images)",
-      "cluster": 7,
-      "source": "Cards",
-      "target": "Cards (cardsNoImages7)",
-      "key": "cardsNoImages7",
+      "name": "Accordion",
+      "cluster": 6,
+      "key": "accordion6",
       "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans/rates-fees",
-          "urlHash": "1b27225a33359e1462174d3d1e723903f1dda38c",
-          "uuid": "1b27225a-06-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
-        },
         {
           "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
           "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-          "uuid": "331fb098-07-b22f1a1135d013512741be7670b2ad701b420afc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
+          "uuid": "331fb098-06-aa8c8c52f687ddd504488a66a491e005b5d235c7",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/div[1]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
           "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-          "uuid": "696fd41d-07-b22f1a1135d013512741be7670b2ad701b420afc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
+          "uuid": "696fd41d-06-aa8c8c52f687ddd504488a66a491e005b5d235c7",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/div[1]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
           "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-          "uuid": "bc81c8b3-08-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
+          "uuid": "bc81c8b3-07-61fc2c75271f1b0544d7daa5c95ac2d012e56424",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]/section[1]/div[1]/div[1]/div[1]/div[1]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-15-0507a0850aaec327a27f07a16642d84c86540ce7",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[9]"
+          "uuid": "bcb8db4f-13-aeb96e9f3c2b0a9aeb75b9ac50ad5843aff5a5a2",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[7]/section[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
+          "urlHash": "331fb09800cff78fef525b022a936269e0486717",
+          "uuid": "331fb098-04-78ec29c973388e39a59facf37e398698d63a9061",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]"
         },
         {
-          "url": "https://www.nrma.com.au/home-loans",
-          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-19-3268d0dae416c2ad621e81d9a73e7913de946b06",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[12]"
+          "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
+          "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
+          "uuid": "696fd41d-04-78ec29c973388e39a59facf37e398698d63a9061",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
+          "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
+          "uuid": "bc81c8b3-05-41c5e31d389722bd859ff6312a330d905de31d4d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]"
         }
       ]
     },
@@ -333,106 +337,62 @@
       "key": "columns8",
       "instances": [
         {
-          "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
-          "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-          "uuid": "331fb098-03-78ec29c973388e39a59facf37e398698d63a9061",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]"
-        },
-        {
-          "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
-          "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-          "uuid": "696fd41d-03-78ec29c973388e39a59facf37e398698d63a9061",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]"
-        },
-        {
-          "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
-          "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-          "uuid": "bc81c8b3-04-41c5e31d389722bd859ff6312a330d905de31d4d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]"
+          "url": "https://www.nrma.com.au/home-loans",
+          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
+          "uuid": "c6fa4982-09-88d507863651f1f0ffdb528cd79bc69ab27fb56d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/div[1]/div[1]/div[1]"
         }
       ]
     },
     {
-      "name": "Accordion",
+      "name": "Cards",
       "cluster": 9,
-      "source": "Accordion",
-      "target": "Accordion (accordion9)",
-      "key": "accordion9",
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans/contact-us",
-          "urlHash": "1980707b256ea23a44bb6d7ff9aed70d65dbfab5",
-          "uuid": "1980707b-03-78ec29c973388e39a59facf37e398698d63a9061",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]"
-        },
-        {
-          "url": "https://www.nrma.com.au/home-loans/contact-us",
-          "urlHash": "1980707b256ea23a44bb6d7ff9aed70d65dbfab5",
-          "uuid": "1980707b-04-41c5e31d389722bd859ff6312a330d905de31d4d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]"
-        },
-        {
-          "url": "https://www.nrma.com.au/home-loans/contact-us",
-          "urlHash": "1980707b256ea23a44bb6d7ff9aed70d65dbfab5",
-          "uuid": "1980707b-05-b22f1a1135d013512741be7670b2ad701b420afc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
-        }
-      ]
-    },
-    {
-      "name": "Cards (no images)",
-      "cluster": 10,
-      "source": "Cards",
-      "target": "Cards (cardsNoImages10)",
-      "key": "cardsNoImages10",
+      "key": "cards9",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/rates-fees",
           "urlHash": "1b27225a33359e1462174d3d1e723903f1dda38c",
-          "uuid": "1b27225a-05-b22f1a1135d013512741be7670b2ad701b420afc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
-        }
-      ]
-    },
-    {
-      "name": "Accordion",
-      "cluster": 11,
-      "source": "Accordion",
-      "target": "Accordion (accordion11)",
-      "key": "accordion11",
-      "instances": [
+          "uuid": "1b27225a-06-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
+        },
         {
           "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
           "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-          "uuid": "331fb098-05-aa8c8c52f687ddd504488a66a491e005b5d235c7",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/div[1]"
+          "uuid": "331fb098-08-b22f1a1135d013512741be7670b2ad701b420afc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
           "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-          "uuid": "696fd41d-05-aa8c8c52f687ddd504488a66a491e005b5d235c7",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/div[1]"
+          "uuid": "696fd41d-08-b22f1a1135d013512741be7670b2ad701b420afc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
           "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-          "uuid": "bc81c8b3-06-61fc2c75271f1b0544d7daa5c95ac2d012e56424",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]/section[1]/div[1]/div[1]/div[1]/div[1]"
+          "uuid": "bc81c8b3-09-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
         },
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-12-aeb96e9f3c2b0a9aeb75b9ac50ad5843aff5a5a2",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[7]/section[1]/div[1]/div[1]/div[1]/div[1]"
+          "uuid": "bcb8db4f-16-0507a0850aaec327a27f07a16642d84c86540ce7",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[9]"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans",
+          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
+          "uuid": "c6fa4982-20-3268d0dae416c2ad621e81d9a73e7913de946b06",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[12]"
         }
       ]
     },
     {
       "name": "Columns",
-      "cluster": 12,
+      "cluster": 10,
       "source": "Columns",
-      "target": "Columns (columns12)",
-      "key": "columns12",
+      "target": "Columns (columns10)",
+      "key": "columns10",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/contact-us",
@@ -473,25 +433,76 @@
     },
     {
       "name": "Accordion",
-      "cluster": 13,
-      "source": "Accordion",
-      "target": "Accordion (accordion13)",
-      "key": "accordion13",
+      "cluster": 11,
+      "key": "accordion11",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-04-a79d97efbbbbc109c8502dcdcf113ff6afd5823b",
+          "uuid": "bcb8db4f-05-a79d97efbbbbc109c8502dcdcf113ff6afd5823b",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]/section[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans",
+          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
+          "uuid": "c6fa4982-01-445572fe9c116a79ec495cf4ba0e11308863911d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 13,
+      "key": "accordion13",
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/contact-us",
+          "urlHash": "1980707b256ea23a44bb6d7ff9aed70d65dbfab5",
+          "uuid": "1980707b-03-78ec29c973388e39a59facf37e398698d63a9061",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans/contact-us",
+          "urlHash": "1980707b256ea23a44bb6d7ff9aed70d65dbfab5",
+          "uuid": "1980707b-04-41c5e31d389722bd859ff6312a330d905de31d4d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]"
+        },
+        {
+          "url": "https://www.nrma.com.au/home-loans/contact-us",
+          "urlHash": "1980707b256ea23a44bb6d7ff9aed70d65dbfab5",
+          "uuid": "1980707b-05-b22f1a1135d013512741be7670b2ad701b420afc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
         }
       ]
     },
     {
       "name": "Cards",
       "cluster": 14,
-      "source": "Cards",
-      "target": "Cards (cards14)",
       "key": "cards14",
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans",
+          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
+          "uuid": "c6fa4982-06-61a92608a02cb82307a8fe2ca06a3b9d37d5f715",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]/section[1]/div[1]/div[2]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 15,
+      "key": "cards15",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/calculators",
@@ -502,49 +513,31 @@
       ]
     },
     {
-      "name": "Columns",
-      "cluster": 15,
-      "source": "Columns",
-      "target": "Columns (columns15)",
-      "key": "columns15",
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans/complaints",
-          "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-01-0a610ed1f506c643d99ba67ec137ae63e56e880f",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
+      "name": "header",
       "cluster": 16,
-      "source": "Columns",
-      "target": "Columns (columns16)",
-      "key": "columns16",
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans",
-          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-05-61a92608a02cb82307a8fe2ca06a3b9d37d5f715",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]/section[1]/div[1]/div[2]/div[1]/div[1]",
-          "section": "section-5"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 17,
-      "source": "Columns",
-      "target": "Columns (columns17)",
-      "key": "columns17",
+      "source": "Header",
+      "target": "Header (header16)",
+      "key": "header16",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/complaints",
           "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-02-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
-          "xpath": "/html[1]/body[1]/div[3]",
-          "section": "section-3"
+          "uuid": "b7fdc77b-00-55406fc4d07096d53dc70908846555d33550e7d4",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 17,
+      "key": "accordion17",
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/faqs",
+          "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
+          "uuid": "bcb8db4f-03-574e77981b9d50229f86f29ecfee40562d1027df",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[1]/div[1]/div[1]"
         }
       ]
     },
@@ -556,41 +549,38 @@
       "key": "columns18",
       "instances": [
         {
-          "url": "https://www.nrma.com.au/home-loans/complaints",
-          "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-06-fee9d01b2f66a50eb5138d5cb917043fc14fe1f0",
-          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-4"
+          "url": "https://www.nrma.com.au/home-loans",
+          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
+          "uuid": "c6fa4982-03-9d3267f84abfaf790060d762b456cec70721e66f",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[1]"
         }
       ]
     },
     {
-      "name": "Hero",
+      "name": "Cards",
       "cluster": 19,
-      "source": "Hero",
-      "target": "Hero",
-      "key": "hero19",
+      "key": "cards19",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/rates-fees",
           "urlHash": "1b27225a33359e1462174d3d1e723903f1dda38c",
-          "uuid": "1b27225a-02-5bedc05ca1e50f0bcc21b568cc600e801fe9e021",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]"
+          "uuid": "1b27225a-05-b22f1a1135d013512741be7670b2ad701b420afc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
         }
       ]
     },
     {
-      "name": "Accordion",
+      "name": "Columns",
       "cluster": 20,
-      "source": "Accordion",
-      "target": "Accordion (accordion20)",
-      "key": "accordion20",
+      "source": "Columns",
+      "target": "Columns (columns20)",
+      "key": "columns20",
       "instances": [
         {
-          "url": "https://www.nrma.com.au/home-loans/faqs",
-          "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-02-5bedc05ca1e50f0bcc21b568cc600e801fe9e021",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]"
+          "url": "https://www.nrma.com.au/home-loans",
+          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
+          "uuid": "c6fa4982-10-b22f1a1135d013512741be7670b2ad701b420afc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
         }
       ]
     },
@@ -604,8 +594,8 @@
         {
           "url": "https://www.nrma.com.au/home-loans",
           "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-11-dcd18cd5669d4e4f7692d4970da3d09d25805301",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[7]"
+          "uuid": "c6fa4982-11-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
         }
       ]
     },
@@ -619,8 +609,8 @@
         {
           "url": "https://www.nrma.com.au/home-loans",
           "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-09-b22f1a1135d013512741be7670b2ad701b420afc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]"
+          "uuid": "c6fa4982-12-dcd18cd5669d4e4f7692d4970da3d09d25805301",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[7]"
         }
       ]
     },
@@ -634,7 +624,7 @@
         {
           "url": "https://www.nrma.com.au/home-loans",
           "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-13-0507a0850aaec327a27f07a16642d84c86540ce7",
+          "uuid": "c6fa4982-14-0507a0850aaec327a27f07a16642d84c86540ce7",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[9]"
         }
       ]
@@ -647,91 +637,46 @@
       "key": "columns24",
       "instances": [
         {
-          "url": "https://www.nrma.com.au/home-loans",
-          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-02-5bedc05ca1e50f0bcc21b568cc600e801fe9e021",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 25,
-      "source": "Columns",
-      "target": "Columns (columns25)",
-      "key": "columns25",
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans",
-          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-10-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 26,
-      "source": "Columns",
-      "target": "Columns (columns26)",
-      "key": "columns26",
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans",
-          "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-01-445572fe9c116a79ec495cf4ba0e11308863911d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[1]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "unknown",
-      "cluster": 27,
-      "instances": [
-        {
           "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
           "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-          "uuid": "696fd41d-02-5bedc05ca1e50f0bcc21b568cc600e801fe9e021",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]"
+          "uuid": "696fd41d-03-5e2b43850271906e81059e437bd95c9cbef1201d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[2]"
         }
       ]
     },
     {
       "name": "Cards",
-      "cluster": 28,
-      "source": "Cards",
-      "target": "Cards (cards28)",
-      "key": "cards28",
+      "cluster": 25,
+      "key": "cards25",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans",
           "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-          "uuid": "c6fa4982-15-b06b5498b4d02019dee56b463cba4b2bb3367b10",
+          "uuid": "c6fa4982-16-b06b5498b4d02019dee56b463cba4b2bb3367b10",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[10]/div[1]/div[1]/div[1]",
-          "section": "section-6"
-        }
-      ]
-    },
-    {
-      "name": "unknown",
-      "cluster": 29,
-      "instances": [
-        {
-          "url": "https://www.nrma.com.au/home-loans/complaints",
-          "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-          "uuid": "b7fdc77b-03-dae946640ab96eb6f208b5f80e2ba558cb8369c1",
-          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
           "section": "section-4"
         }
       ]
     },
     {
+      "name": "unknown",
+      "cluster": 26,
+      "instances": [
+        {
+          "url": "https://www.nrma.com.au/home-loans/complaints",
+          "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
+          "uuid": "b7fdc77b-03-bd909553d7094631c4e8151d7ab8745acc9400f0",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
       "name": "Columns",
-      "cluster": 30,
+      "cluster": 27,
       "source": "Columns",
-      "target": "Columns (columns30)",
-      "key": "columns30",
+      "target": "Columns (columns27)",
+      "key": "columns27",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/contact-us",
@@ -743,76 +688,70 @@
     },
     {
       "name": "Accordion",
-      "cluster": 31,
-      "source": "Accordion",
-      "target": "Accordion (accordion31)",
-      "key": "accordion31",
+      "cluster": 28,
+      "key": "accordion28",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-08-61fc2c75271f1b0544d7daa5c95ac2d012e56424",
+          "uuid": "bcb8db4f-09-61fc2c75271f1b0544d7daa5c95ac2d012e56424",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]/section[1]/div[1]/div[1]/div[1]/div[1]"
         }
       ]
     },
     {
       "name": "Accordion",
-      "cluster": 32,
-      "source": "Accordion",
-      "target": "Accordion (accordion32)",
-      "key": "accordion32",
+      "cluster": 29,
+      "key": "accordion29",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-10-9b27b2fd659ef6dd9d83886208efff353da8f0c0",
+          "uuid": "bcb8db4f-11-9b27b2fd659ef6dd9d83886208efff353da8f0c0",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]/section[1]/div[1]/div[1]/div[1]/div[1]"
         }
       ]
     },
     {
       "name": "Accordion",
-      "cluster": 33,
-      "source": "Accordion",
-      "target": "Accordion (accordion33)",
-      "key": "accordion33",
+      "cluster": 30,
+      "key": "accordion30",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/faqs",
           "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-          "uuid": "bcb8db4f-14-ff7aacc022073059f16189ca23a31b06b3f1330a",
+          "uuid": "bcb8db4f-15-ff7aacc022073059f16189ca23a31b06b3f1330a",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[8]/section[1]/div[1]/div[1]/div[1]/div[1]"
         }
       ]
     },
     {
       "name": "Columns",
-      "cluster": 34,
+      "cluster": 31,
       "source": "Columns",
-      "target": "Columns (columns34)",
-      "key": "columns34",
+      "target": "Columns (columns31)",
+      "key": "columns31",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
           "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-          "uuid": "bc81c8b3-03-78ec29c973388e39a59facf37e398698d63a9061",
+          "uuid": "bc81c8b3-04-78ec29c973388e39a59facf37e398698d63a9061",
           "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]"
         }
       ]
     },
     {
       "name": "Columns",
-      "cluster": 35,
+      "cluster": 32,
       "source": "Columns",
-      "target": "Columns (columns35)",
-      "key": "columns35",
+      "target": "Columns (columns32)",
+      "key": "columns32",
       "instances": [
         {
           "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
           "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-          "uuid": "331fb098-02-5bedc05ca1e50f0bcc21b568cc600e801fe9e021",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]"
+          "uuid": "331fb098-03-5e2b43850271906e81059e437bd95c9cbef1201d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[2]"
         }
       ]
     }
@@ -841,6 +780,12 @@
       "urlHash": "1b27225a33359e1462174d3d1e723903f1dda38c",
       "uuid": "1b27225a-00-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
       "xpath": "/html[1]/body[1]/div[3]"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/rates-fees",
+      "urlHash": "1b27225a33359e1462174d3d1e723903f1dda38c",
+      "uuid": "1b27225a-02-5bedc05ca1e50f0bcc21b568cc600e801fe9e021",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/rates-fees",
@@ -875,25 +820,31 @@
     {
       "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
       "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-      "uuid": "331fb098-04-ce2b399ed4e4f0006875235661684d2c0f31ccf6",
+      "uuid": "331fb098-02-9d3267f84abfaf790060d762b456cec70721e66f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
+      "urlHash": "331fb09800cff78fef525b022a936269e0486717",
+      "uuid": "331fb098-05-ce2b399ed4e4f0006875235661684d2c0f31ccf6",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
       "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-      "uuid": "331fb098-06-ac283aa029fcd21692be5a3f5b323dc5f94d5185",
+      "uuid": "331fb098-07-ac283aa029fcd21692be5a3f5b323dc5f94d5185",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/div[2]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
       "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-      "uuid": "331fb098-08-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
+      "uuid": "331fb098-09-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/repayments-calculator",
       "urlHash": "331fb09800cff78fef525b022a936269e0486717",
-      "uuid": "331fb098-09-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+      "uuid": "331fb098-10-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
       "xpath": "/html[1]/body[1]/div[4]"
     },
     {
@@ -905,25 +856,31 @@
     {
       "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
       "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-      "uuid": "696fd41d-04-ce2b399ed4e4f0006875235661684d2c0f31ccf6",
+      "uuid": "696fd41d-02-9d3267f84abfaf790060d762b456cec70721e66f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
+      "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
+      "uuid": "696fd41d-05-ce2b399ed4e4f0006875235661684d2c0f31ccf6",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
       "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-      "uuid": "696fd41d-06-ac283aa029fcd21692be5a3f5b323dc5f94d5185",
+      "uuid": "696fd41d-07-ac283aa029fcd21692be5a3f5b323dc5f94d5185",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/div[2]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
       "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-      "uuid": "696fd41d-08-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
+      "uuid": "696fd41d-09-e6200b1030df43016efd3c54fe9f3997e5ea78ba",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/borrowing-calculator",
       "urlHash": "696fd41deeb914153b69db23ebe70970653b44f0",
-      "uuid": "696fd41d-09-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+      "uuid": "696fd41d-10-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
       "xpath": "/html[1]/body[1]/div[4]"
     },
     {
@@ -952,40 +909,6 @@
       "xpath": "/html[1]/body[1]/div[4]"
     },
     {
-      "url": "https://www.nrma.com.au/home-loans/complaints",
-      "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-      "uuid": "b7fdc77b-00-6072c4e3c146c8950d80494d39eadc1562cb57fb",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
-      "section": "section-2"
-    },
-    {
-      "url": "https://www.nrma.com.au/home-loans/complaints",
-      "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-      "uuid": "b7fdc77b-04-2071f2258ce6381e5301749d8a0af66adbffa99b",
-      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
-      "section": "section-4"
-    },
-    {
-      "url": "https://www.nrma.com.au/home-loans/complaints",
-      "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-      "uuid": "b7fdc77b-08-981fb9e119a562a22343c71f823c0e0aeed57598",
-      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]",
-      "section": "section-4"
-    },
-    {
-      "url": "https://www.nrma.com.au/home-loans/complaints",
-      "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-      "uuid": "b7fdc77b-09-d23df01e31629b4bd0e718450c7dbe7851582335",
-      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]",
-      "section": "section-4"
-    },
-    {
-      "url": "https://www.nrma.com.au/home-loans/complaints",
-      "urlHash": "b7fdc77be2b826b7d51534d4f105875352f80b03",
-      "uuid": "b7fdc77b-10-17a2d8b7c2f0e41c65062dbbc04730508e0eb617",
-      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
       "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
       "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
       "uuid": "bc81c8b3-00-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
@@ -994,25 +917,31 @@
     {
       "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
       "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-      "uuid": "bc81c8b3-05-e919068be97a50c3442a5eb67c9a7a0efd23b7e5",
+      "uuid": "bc81c8b3-02-9d3267f84abfaf790060d762b456cec70721e66f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
+      "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
+      "uuid": "bc81c8b3-06-e919068be97a50c3442a5eb67c9a7a0efd23b7e5",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
       "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-      "uuid": "bc81c8b3-07-727a37354d5a6806da41a1f5e38d6e16093642ae",
+      "uuid": "bc81c8b3-08-727a37354d5a6806da41a1f5e38d6e16093642ae",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]/section[1]/div[1]/div[1]/div[1]/div[2]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
       "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-      "uuid": "bc81c8b3-09-dcd18cd5669d4e4f7692d4970da3d09d25805301",
+      "uuid": "bc81c8b3-10-dcd18cd5669d4e4f7692d4970da3d09d25805301",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[7]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/refinance-calculator",
       "urlHash": "bc81c8b318ddfa8a3f985091ecf48ba42243e374",
-      "uuid": "bc81c8b3-10-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+      "uuid": "bc81c8b3-11-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
       "xpath": "/html[1]/body[1]/div[4]"
     },
     {
@@ -1031,49 +960,55 @@
     {
       "url": "https://www.nrma.com.au/home-loans/faqs",
       "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-      "uuid": "bcb8db4f-03-d92fa0321d14d5ad192f6f8eca641ce05f061843",
+      "uuid": "bcb8db4f-02-86e9d21586e352c69fb00d6e1c5c16245c30485f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/div[1]/div[1]/h2[1]"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans/faqs",
+      "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
+      "uuid": "bcb8db4f-04-d92fa0321d14d5ad192f6f8eca641ce05f061843",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/faqs",
       "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-      "uuid": "bcb8db4f-05-ce2b399ed4e4f0006875235661684d2c0f31ccf6",
+      "uuid": "bcb8db4f-06-ce2b399ed4e4f0006875235661684d2c0f31ccf6",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/faqs",
       "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-      "uuid": "bcb8db4f-07-e919068be97a50c3442a5eb67c9a7a0efd23b7e5",
+      "uuid": "bcb8db4f-08-e919068be97a50c3442a5eb67c9a7a0efd23b7e5",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[5]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/faqs",
       "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-      "uuid": "bcb8db4f-09-7c31811ed0c92fc91fec4da2211d8c93f0b5bf44",
+      "uuid": "bcb8db4f-10-7c31811ed0c92fc91fec4da2211d8c93f0b5bf44",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[6]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/faqs",
       "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-      "uuid": "bcb8db4f-11-89b6d054cf0ee528c8465cdd4b6b388e8704d2f6",
+      "uuid": "bcb8db4f-12-89b6d054cf0ee528c8465cdd4b6b388e8704d2f6",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[7]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/faqs",
       "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-      "uuid": "bcb8db4f-13-93232c375d4a03c5bb7b8fbf84c69fedc4a14772",
+      "uuid": "bcb8db4f-14-93232c375d4a03c5bb7b8fbf84c69fedc4a14772",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[8]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/faqs",
       "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-      "uuid": "bcb8db4f-16-809bb138c0ecd40cc9326f2e3f74e4623b945823",
+      "uuid": "bcb8db4f-17-809bb138c0ecd40cc9326f2e3f74e4623b945823",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[10]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans/faqs",
       "urlHash": "bcb8db4f04849078333c039b229123dff4ee0412",
-      "uuid": "bcb8db4f-17-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+      "uuid": "bcb8db4f-18-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
       "xpath": "/html[1]/body[1]/div[4]"
     },
     {
@@ -1085,59 +1020,65 @@
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-03-fec5033ac47cbde719f9d6263d91194e453f35f9",
+      "uuid": "c6fa4982-02-24cf69159dee1977ff6c717f2109cc4e30f7340c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[2]/section[1]/div[1]/h2[1]"
+    },
+    {
+      "url": "https://www.nrma.com.au/home-loans",
+      "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
+      "uuid": "c6fa4982-04-fec5033ac47cbde719f9d6263d91194e453f35f9",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]/section[1]/div[1]/div[1]",
-      "section": "section-5"
+      "section": "section-3"
     },
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-04-cc8d1f6d90010d60f046c716b746c8fea839d960",
+      "uuid": "c6fa4982-05-cc8d1f6d90010d60f046c716b746c8fea839d960",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]/section[1]/div[1]/div[2]/form[1]",
-      "section": "section-5"
+      "section": "section-3"
     },
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-06-2c49d2f6476c83dbed8116d31d842266a60ae040",
+      "uuid": "c6fa4982-07-2c49d2f6476c83dbed8116d31d842266a60ae040",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[3]/section[1]/div[1]/div[2]/div[1]/div[2]",
-      "section": "section-5"
+      "section": "section-3"
     },
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-07-414542b7dd276f9bf71aaf73158aee65afa8c74e",
+      "uuid": "c6fa4982-08-414542b7dd276f9bf71aaf73158aee65afa8c74e",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[4]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-14-403db7fa28fcbb8ecefdac0ef7fb5799de29afb6",
+      "uuid": "c6fa4982-15-403db7fa28fcbb8ecefdac0ef7fb5799de29afb6",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[10]/div[1]/div[1]/h2[1]",
-      "section": "section-6"
+      "section": "section-4"
     },
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-16-6da4b444e99aaf66a5ef470f0d0a1ea261ccaf85",
+      "uuid": "c6fa4982-17-6da4b444e99aaf66a5ef470f0d0a1ea261ccaf85",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[11]/section[1]/div[1]/div[1]/div[1]/h2[1]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-18-200255117147fdb43f3bace47fc11f3a2c8c411c",
+      "uuid": "c6fa4982-19-200255117147fdb43f3bace47fc11f3a2c8c411c",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[11]/section[1]/div[1]/div[1]/div[1]/div[2]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-20-0afe7fbabf84401586bfc185033bacf023b08b2d",
+      "uuid": "c6fa4982-21-0afe7fbabf84401586bfc185033bacf023b08b2d",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/section[13]"
     },
     {
       "url": "https://www.nrma.com.au/home-loans",
       "urlHash": "c6fa4982f4af50718d8de8eb73ed3f66c40ee9ff",
-      "uuid": "c6fa4982-21-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+      "uuid": "c6fa4982-22-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
       "xpath": "/html[1]/body[1]/div[4]"
     }
   ],
@@ -1149,26 +1090,16 @@
     },
     {
       "name": "section-2",
-      "background": "rgb(242, 243, 249) none repeat scroll 0% 0% / auto padding-box border-box",
-      "count": 1
+      "background": "rgba(255, 255, 255, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 4
     },
     {
       "name": "section-3",
-      "background": "rgb(253, 250, 249) none repeat scroll 0% 0% / auto padding-box border-box",
-      "count": 1
-    },
-    {
-      "name": "section-4",
-      "background": "rgb(0, 8, 78) none repeat scroll 0% 0% / auto padding-box border-box",
-      "count": 7
-    },
-    {
-      "name": "section-5",
       "background": "rgb(240, 240, 196) none repeat scroll 0% 0% / auto padding-box border-box",
       "count": 4
     },
     {
-      "name": "section-6",
+      "name": "section-4",
       "background": "rgb(206, 225, 214) none repeat scroll 0% 0% / auto padding-box border-box",
       "count": 2
     }
