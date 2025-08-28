@@ -14,19 +14,14 @@
    
     try {
         // remove site header for NRMA Home Loans pages
-        document.querySelector('.cmp-header-v2')?.remove();
+        document.querySelector('#aem-header-iframe-container').remove();
     
-        // remove modal for NRMA Home Loans pages
-        document.querySelector('#chatXfModal')?.remove();
-    
+        // Remove site footer for NRMA pages
+        document.querySelector('#aem-footer-iframe-container')?.remove();
+
         // remove chatbot for NRMA Home Loans pages
         document.querySelector('#nuanMessagingFrame')?.remove();
     
-        // remove footer for NRMA Home Loans pages
-        document.querySelector('.cmp-footer--generic-template')?.remove();
-    
-        // Remove site header for NRMA pages
-        document.querySelector('#nav-bar')?.remove();
       } catch (e) {
         // noop
       }
