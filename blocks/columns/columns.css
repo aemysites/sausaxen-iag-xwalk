@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -29,5 +30,295 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+}
+
+
+/* --- Layout: two column grid, side by side on desktop --- */
+.columns.columns1 > div {
+  display: grid;
+  grid-template-columns: minmax(380px, 480px) minmax(400px, 1fr);
+  gap: 56px;
+  max-width: 1080px;
+  margin: 40px auto;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* --- Left card --- */
+.columns.columns1 > div > div:first-child {
+  background: #fff;
+  border: 1px solid #e3ebfa;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgb(1 12 102 / 8%);
+  padding: 46px 36px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* --- Results card --- */
+.columns.columns1 > div > div:last-child {
+  background: #f7f8fc;
+  border-radius: 16px;
+  padding: 46px 36px 36px;
+  min-width: 0;
+  box-sizing: border-box;
+  opacity: 0.35;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+/* --- Headings --- */
+.columns.columns1 h3 {
+  color: #010C66;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0 0 22px;
+  letter-spacing: 0.01em;
+}
+
+.columns.columns1 > div > div > h3:not(:first-child) {
+  margin-top: 28px;
+}
+
+/* --- Paragraphs --- */
+.columns.columns1 > div > div p {
+  color: #010C66;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 7px;
+}
+
+/* --- Input field simulation and grouping --- */
+
+/* Loan balance (field) */
+.columns.columns1 > div > div:first-child p:nth-of-type(3) {
+  border: 1.5px solid #010C66;
+  border-radius: 6px;
+  background: #fff;
+  color: #010C66;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 14px;
+  margin-bottom: 18px;
+  margin-top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* --- Row for "Current rate" and "Remaining Loan Term" fields --- */
+.columns.columns1 > div > div:first-child .rate-term-row {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.columns.columns1 > div > div:first-child .rate-term-row > p {
+  flex: 1 1 0;
+  margin: 0;
+}
+
+/* To approximate .rate-term-row using given HTML, manually set both "Current rate" and "Remaining Loan Term" fields inline-block and width:48% (if no wrapper is possible) */
+.columns.columns1 > div > div:first-child p:nth-of-type(5),
+.columns.columns1 > div > div:first-child p:nth-of-type(7) {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  min-width: 140px;
+  border: 1.5px solid #010C66;
+  border-radius: 6px;
+  background: #fff url('chevron-icon.svg') no-repeat right 12px center;
+  background-size: 18px 18px;
+  color: #010C66;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 38px 10px 14px;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+
+/* --- Property purpose segmented control simulation --- */
+.columns.columns1 > div > div:first-child p:nth-of-type(12) {
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  border: 1.5px solid #010C66;
+  background: #fff;
+  margin: 15px 0 16px;
+  min-width: 220px;
+  width: fit-content;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.columns.columns1 > div > div:first-child p:nth-of-type(12) span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #010C66;
+  padding: 10px 32px;
+  background: transparent;
+  border-right: 1px solid #E4F3FF;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.columns.columns1 > div > div:first-child p:nth-of-type(12) span:last-child {
+  border-right: none;
+}
+
+.columns.columns1 > div > div:first-child p:nth-of-type(12) span.selected {
+  background: #e4f3ff;
+  font-weight: 700;
+}
+
+/* --- Repayment and Interest Type side by side --- */
+.columns.columns1 > div > div:first-child .repay-interest-row {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.columns.columns1 > div > div:first-child .repay-interest-row > p {
+  flex: 1 1 0;
+  margin: 0;
+}
+
+.columns.columns1 > div > div:first-child p:nth-of-type(14),
+.columns.columns1 > div > div:first-child p:nth-of-type(16) {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  min-width: 140px;
+  border: 1.5px solid #010C66;
+  border-radius: 6px;
+  background: #fff url('chevron-icon.svg') no-repeat right 12px center;
+  background-size: 18px 18px;
+  color: #010C66;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 38px 10px 14px;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+
+/* Tighten spacing between all fields/inputs and headings */
+.columns.columns1 > div > div:first-child p {
+  margin-bottom: 8px;
+}
+
+.columns.columns1 > div > div:first-child h3 {
+  margin-bottom: 18px;
+}
+
+/* --- Calculate Button --- */
+.columns.columns1 > div > div:first-child p:nth-last-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #010C66;
+  color: #fff;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 0;
+  border: none;
+  margin: 34px 0 0;
+  box-shadow: 0 4px 16px rgb(1 12 102 / 14%);
+  text-align: center;
+  min-height: 54px;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 0.01em;
+}
+
+.columns.columns1 > div > div:first-child p:last-of-type {
+  display: none;
+}
+
+/* --- Results column: keep "Apply now" button full color --- */
+.columns.columns1 > div > div:last-child h3,
+.columns.columns1 > div > div:last-child .button-container,
+.columns.columns1 > div > div:last-child .button-container .button {
+  opacity: 1;
+  color: #010C66;
+  font-weight: 700;
+}
+
+/* Apply now button full color */
+.columns.columns1 > div > div:last-child .button-container .button {
+  background: #010C66;
+  color: #fff;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 0;
+  border: none;
+  box-shadow: 0 4px 16px rgb(1 12 102 / 14%);
+  text-align: center;
+  width: 100%;
+  margin-top: 36px;
+  display: block;
+}
+
+/* Results compact spacing */
+.columns.columns1 > div > div:last-child > * {
+  margin-bottom: 11px;
+}
+
+.columns.columns1 > div > div:last-child h3 {
+  margin-bottom: 8px;
+  margin-top: 34px;
+}
+
+/* --- Responsive: stack columns on small screens --- */
+@media (width <= 900px) {
+  .columns.columns1 > div {
+    grid-template-columns: 1fr;
+    gap: 0;
+    max-width: 100vw;
+    margin: 0;
+  }
+
+  .columns.columns1 > div > div {
+    padding: 18px 3vw;
+    margin-bottom: 18px;
+    border-radius: 0;
+  }
+
+  .columns.columns1 > div > div:first-child,
+  .columns.columns1 > div > div:last-child {
+    box-shadow: none;
+  }
+
+  .columns.columns1 > div > div:first-child p:nth-last-of-type(2),
+  .columns.columns1 > div > div:last-child .button-container .button {
+    width: 100%;
+  }
+
+  /* Fields stack vertically on mobile */
+  .columns.columns1 > div > div:first-child p:nth-of-type(5),
+  .columns.columns1 > div > div:first-child p:nth-of-type(7),
+  .columns.columns1 > div > div:first-child p:nth-of-type(14),
+  .columns.columns1 > div > div:first-child p:nth-of-type(16) {
+    width: 100%;
+    display: block;
+    margin-right: 0;
+  }
+
+  .columns.columns1 > div > div:first-child p:nth-of-type(12) {
+    width: 100%;
   }
 }
