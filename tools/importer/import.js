@@ -11,37 +11,7 @@
  */
 /* global WebImporter */
 /* eslint-disable no-console */
-import cardsNoImages5Parser from './parsers/cardsNoImages5.js';
-import accordion4Parser from './parsers/accordion4.js';
-import cardsNoImages10Parser from './parsers/cardsNoImages10.js';
-import accordion9Parser from './parsers/accordion9.js';
-import accordion11Parser from './parsers/accordion11.js';
-import cardsNoImages7Parser from './parsers/cardsNoImages7.js';
-import columns8Parser from './parsers/columns8.js';
-import columns6Parser from './parsers/columns6.js';
-import columns15Parser from './parsers/columns15.js';
-import columns16Parser from './parsers/columns16.js';
-import accordion13Parser from './parsers/accordion13.js';
-import cards14Parser from './parsers/cards14.js';
-import hero19Parser from './parsers/hero19.js';
-import columns22Parser from './parsers/columns22.js';
-import columns3Parser from './parsers/columns3.js';
-import accordion20Parser from './parsers/accordion20.js';
-import columns21Parser from './parsers/columns21.js';
-import columns23Parser from './parsers/columns23.js';
-import columns25Parser from './parsers/columns25.js';
-import columns30Parser from './parsers/columns30.js';
-import accordion32Parser from './parsers/accordion32.js';
-import columns18Parser from './parsers/columns18.js';
-import cards28Parser from './parsers/cards28.js';
-import accordion33Parser from './parsers/accordion33.js';
-import columns26Parser from './parsers/columns26.js';
-import accordion31Parser from './parsers/accordion31.js';
-import columns35Parser from './parsers/columns35.js';
-import columns34Parser from './parsers/columns34.js';
-import columns24Parser from './parsers/columns24.js';
-import columns17Parser from './parsers/columns17.js';
-import columns12Parser from './parsers/columns12.js';
+
 import headerParser from './parsers/header.js';
 import metadataParser from './parsers/metadata.js';
 import cleanupTransformer from './transformers/cleanup.js';
@@ -58,37 +28,7 @@ import {
 
 const parsers = {
   metadata: metadataParser,
-  cardsNoImages5: cardsNoImages5Parser,
-  accordion4: accordion4Parser,
-  cardsNoImages10: cardsNoImages10Parser,
-  accordion9: accordion9Parser,
-  accordion11: accordion11Parser,
-  cardsNoImages7: cardsNoImages7Parser,
-  columns8: columns8Parser,
-  columns6: columns6Parser,
-  columns15: columns15Parser,
-  columns16: columns16Parser,
-  accordion13: accordion13Parser,
-  cards14: cards14Parser,
-  hero19: hero19Parser,
-  columns22: columns22Parser,
-  columns3: columns3Parser,
-  accordion20: accordion20Parser,
-  columns21: columns21Parser,
-  columns23: columns23Parser,
-  columns25: columns25Parser,
-  columns30: columns30Parser,
-  accordion32: accordion32Parser,
-  columns18: columns18Parser,
-  cards28: cards28Parser,
-  accordion33: accordion33Parser,
-  columns26: columns26Parser,
-  accordion31: accordion31Parser,
-  columns35: columns35Parser,
-  columns34: columns34Parser,
-  columns24: columns24Parser,
-  columns17: columns17Parser,
-  columns12: columns12Parser,
+
   ...customParsers,
 };
 
