@@ -24,7 +24,7 @@ export default function parse(element, { document }) {
     if (heading) cellContent.push(heading);
     if (description) cellContent.push(description);
     if (ctaLink) cellContent.push(ctaLink);
-    return [cellContent];
+    return [[], cellContent];
   });
 
   // Compose the table data

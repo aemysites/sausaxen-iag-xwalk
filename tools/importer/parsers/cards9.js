@@ -41,7 +41,7 @@ export default function parse(element, { document }) {
     }
 
     // For 'no images' variant, two columns: first cell empty, second cell is text content
-    rows.push(['', cellContent]);
+    rows.push([[], cellContent]);
   });
 
   // Create the table
