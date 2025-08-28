@@ -1,19 +1,35 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 24px;
+  gap: 12px;
+  justify-content: center;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
+  border: none;
   background-color: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 40 120 / 7%);
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 1px;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  margin: 0;
+  padding: 4px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
 }
 
 .cards .cards-card-image {
@@ -24,4 +40,98 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+
+.cards {
+  background: #f6f6e6;
+  padding: 24px 0;
+}
+
+/* Grid layout: tightest horizontal spacing, 3 columns */
+
+/* Card: compact, subtle shadow, round corners */
+
+/* Card body: minimal top/bottom padding */
+
+/* Heading: bold blue, slightly larger, tight margin */
+.cards .cards-card-body h3 {
+  color: #002878;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 0 4px;
+  font-family: var(--heading-font-family);
+  text-align: left;
+  letter-spacing: 0.01em;
+}
+
+/* Description: left, very minimal space below */
+.cards .cards-card-body p {
+  color: #002878;
+  font-size: 1rem;
+  margin-bottom: 4px;
+  line-height: 1.4;
+  font-family: var(--body-font-family);
+  text-align: left;
+}
+
+/* Button container: minimal margin, center horizontally */
+.cards .button-container {
+  width: 100%;
+  margin-top: 4px;
+  text-align: center;
+}
+
+/* Button: compact, bold, visually matching original */
+.cards .button-container .button {
+  background: #011d53;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 22px;
+  padding: 13px 36px;
+  box-shadow: 0 2px 6px rgb(0 40 120 / 10%);
+  border: none;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  max-width: none;
+  overflow: visible;
+  text-overflow: unset;
+  white-space: normal;
+  margin: 0 auto 0 0;
+  margin-bottom: 0;
+}
+
+.cards .button-container .button:hover,
+.cards .button-container .button:focus {
+  background: #039;
+}
+
+/* Remove any bottom margin from button for tightness */
+
+/* Responsive: stack cards and adjust padding/gaps */
+@media (width <= 900px) {
+  .cards > ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .cards > ul > li {
+    max-width: 420px;
+  }
+}
+
+@media (width <= 600px) {
+  .cards > ul {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .cards > ul > li {
+    max-width: 98vw;
+  }
+
+  .cards .cards-card-body {
+    padding: 2px;
+  }
 }
