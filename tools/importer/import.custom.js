@@ -10,6 +10,8 @@
  * governing permissions and limitations under the License.
  */
 
+import { TransformHook } from './transformers/transform.js';
+
 /**
  * A map of custom parser names to imported parser functions.
  *
@@ -37,22 +39,22 @@ export const customElements = [];
  * Custom transformers
  */
 export const customTransformers = {
-  inject: (hookName, element, {
-    document
-  }) => {
-    if (hookName === 'beforeTransform') {
+  header: (hookName, element) => {
+    if (hookName === TransformHook.beforeTransform) {
       try {
-        // remove site header for NRMA Home Loans pages
-        document.querySelector('#aem-header-iframe-container')?.remove();
-        document.querySelector('.cmp-header-v2')?.remove();
+        element.querySelector('#skip-link')?.remove();
+        element.querySelector('#page-header')?.remove();
+        element.querySelector('#nav-bar')?.remove();
+        element.querySelector('#aem-header-iframe-container')?.remove();
+        element.querySelector('.cmp-header-v2')?.remove();
 
         // Remove site footer for NRMA pages
-        document.querySelector('#aem-footer-iframe-container')?.remove();
-        document.querySelector('.cmp-footer--generic-template')?.remove();
+        element.querySelector('#aem-footer-iframe-container')?.remove();
+        element.querySelector('.cmp-footer--generic-template')?.remove();
 
         // remove chatbot for NRMA Home Loans pages
-        document.querySelector('#nuanMessagingFrame')?.remove();
-        document.querySelector('#chatXfModal')?.remove();
+        element.querySelector('#nuanMessagingFrame')?.remove();
+        element.querySelector('#chatXfModal')?.remove();
       } catch (e) {
         // noop
       }
