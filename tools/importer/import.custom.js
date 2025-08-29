@@ -42,10 +42,9 @@ export const customTransformers = {
   header: (hookName, element) => {
     if (hookName === TransformHook.beforeTransform) {
       try {
-        // remove site header for NRMA Home Loans pages
         element.querySelector('#skip-link')?.remove();
+        element.querySelector('#page-header')?.remove();
         element.querySelector('#nav-bar')?.remove();
-        element.querySelector('#nav-bar-mobile')?.remove();
         element.querySelector('#aem-header-iframe-container')?.remove();
         element.querySelector('.cmp-header-v2')?.remove();
 
